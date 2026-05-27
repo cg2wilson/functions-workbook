@@ -2,7 +2,222 @@
 
 <section xml:id="sec1-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Section 1.2</title>
-  <p>
-    
-  </p>
+  <note>
+    <p>
+      Graphing tools like Desmos will be helpful as you move throughout the course. You can access the Desmos Graphing Calculator by clicking <url href="https://www.desmos.com/calculator">this link</url>
+    </p>
+  </note>
+  <definition xml:id="def-complete-graph">
+    <title>Complete Graph</title>
+    <statement>
+      <p>
+        A <term>complete graph</term> is a graph which shows the basic shape of the graph and important points on the graph (including points where the graph crosses the axes and points where the graph turns) and suggests what the unseen portions of the graph will be.
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="sec1-2-completegraph-ex1">
+    <statement>
+      <p>
+        The graph below is considered complete because it shows the "interesting" behavior of the function- where it crosses the axes, where it turns, etc.
+      </p>
+      <figure xml:id="sec1-2-completegraph-ex1-fig1">
+        <caption>An example of a complete graph.</caption>
+        <image xml:id="sec1-2-completegraph-ex1-fig1img1" width="50%">
+          <description><p>
+            The graph of <m>f(x) = x^4 - 4x^3</m>
+          </p></description>
+          <sageplot>
+            plot(x^4 - 4*x^3, xmin = -2, xmax = 5, ymin = -27, ymax = 50)          
+          </sageplot>
+        </image>
+      </figure>
+      <p>
+        In the above image, the viewing window has <c>xmin = -2</c>, <c>xmax = 5</c>, <c>ymin = -27</c>, and <c>ymax = 50</c>. Here, <c>xmin</c> and <c>ymin</c> are the smallest values that the <m>x-</m> and <m>y-</m>axes will display, respectively; similarly, <c>xmax</c> and <c>ymax</c> are the largest values that the <m>x-</m> and <m>y-</m>axes will display, respectively. Use the interactive below to see what happens when you change the viewing window.
+      </p>
+      <figure xml:id="sec1-2-completegraph-ex1-fig2">
+        <caption>An interactive for determining the bounds on a complete graph.</caption>
+        <interactive label="sec1-2-completegraph-ex1fig2img1" platform = "doenetml" aspect="3:2">
+          <slate surface="doenetml">
+            <xi:include parse="text" href="./doenet/sec1-2-completegraph-ex1.doenetml"/>
+          </slate>
+        </interactive>
+      </figure>
+    </statement>
+  </example>
+
+  <exercise xml:id="sec1-2-completegraph-cu1">
+    <statement>
+      <p>
+        Is the graph shown below a complete graph? Why or why not?
+      </p>
+      <figure xml:id="sec1-2-completegraph-cu1-fig1">
+        <caption>The graph of a function: is it complete?</caption>
+        <image xml:id="sec1-2-completegraph-cu1-fig1img1">
+          <description><p>
+            The graph of a function.
+          </p></description>
+          <sageplot>
+            plot(x^4 - 10*x^2+x, xmin = -3, xmax = 4, ymin = -25, ymax = 40)          
+          </sageplot>
+        </image>
+      </figure>
+    </statement>
+    <answer>
+      <p>
+        It is not complete, for three reasons:
+        <ol>
+          <li>
+            <p>
+              It does not show where the graph crosses the <m>x-</m>axis on the left-hand side of the graph.
+            </p>
+          </li>
+          <li>
+            <p>
+              It does not show the location of the lowest point on the graph.
+            </p>
+          </li>
+          <li>
+            <p>
+              Because we cut the graph off on the left, it's not clear that the function keeps going up and to the left.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </answer>
+  </exercise>
+
+  <note xml:id="sec1-2-completegraph-note-1">
+    <p>
+      The location where a graph hits a "peak" or a "trough" has a name! These are called <term>relative extrema</term>.
+    </p>
+  </note>
+
+  <definition xml:id="def-relative-extrema">
+    <title>Relative Maximum/Relative Minimum</title>
+    <statement>
+      <p>
+        A <term>relative maximum</term> of a function <m>f(x)</m> is a point on the graph of the function where the output is larger than the outputs around it.
+      </p>
+      <p>
+        A <term>relative minimum</term> of a function <m>f(x)</m> is a point on the graph of the function where the output is smaller than the outputs around it.
+      </p>
+      <p>
+        Collectively, relative maxima and minima are called <term>relative (or local) extrema</term>
+      </p>
+    </statement>
+  </definition>
+
+  <note xml:id="sec1-2-extrema-note-1">
+    <p>
+      Because the words are derived from Latin, the plural of "maximum" is "maxima", the plural of "minimum" is "minima", and the plural of "extremum" is "extrema".
+    </p>
+  </note>
+  
+  <example xml:id="sec1-2-extrema-ex1">
+    <statement>
+      <p>
+        In the image from <xref ref="sec1-2-completegraph-ex1"/>, there is one relative extremum (it is copied below).
+      </p>
+      <figure xml:id="sec1-2-extrema-ex1-fig1">
+        <caption>An example of a complete graph.</caption>
+        <image xml:id="sec1-2-extrema-ex1-fig1img1" width="50%">
+          <description><p>
+            The graph of <m>f(x) = x^4 - 4x^3</m>
+          </p></description>
+          <sageplot>
+            plot(x^4 - 4*x^3, xmin = -2, xmax = 5, ymin = -27, ymax = 50)          
+          </sageplot>
+        </image>
+      </figure>
+      <p>
+        The relative minimum occurs at approximately <m>x = 3</m> and <m>f(3) \approx -27</m>
+      </p>
+    </statement>
+  </example>
+
+  <exercise xml:id="sec1-2-extrema-cu1">
+    <statement>
+      <p>
+        In the image below, estimate the location of the relative maxima and minima.
+      </p>
+      <figure xml:id="sec1-2-extrema-cu1-fig1">
+        <caption>The complete graph of a function.</caption>
+        <image xml:id="sec1-2-extrema-cu1-fig1img1" width = "50%">
+          <description><p>
+            The complete graph of <m>f(x) = x^4-10x^2 + x</m>
+          </p></description>
+          <sageplot>
+            plot(x^4 - 10*x^2+x, xmin = -4, xmax = 4, ymin = -27, ymax = 40)          
+          </sageplot>
+        </image>
+      </figure>
+    </statement>
+    <answer>
+      <p>
+        There is a relative maximum at approximately <m>x = 0</m>, and there are local minima at <m>x \approx -2.25</m> and <m>x\approx 2.25</m>
+      </p>
+    </answer>
+  </exercise>
+
+  <definition xml:id="def-rootszerossolutions">
+    <title>Roots/Zeros/Solutions</title>
+    <statement>
+      <p>
+        A <term>root</term> of a function is the input value where it crosses the <m>x-</m>axis, i.e. is a solution to the equation <m>f(x) = 0</m>.
+      </p>
+      <p>
+        A root is also called a <term>zero</term> or <term>solution</term>.
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="sec1-2-rootszerossolutions-ex1">
+    <statement>
+      <p>
+        Again using the function <m>f(x) = x^4 - 4x^3</m>, there are two roots/zeros/solutions:
+      </p>
+      <figure xml:id="sec1-2-rootszerossolutions-ex1-fig1">
+        <caption>The graph of <m>f(x) = x^4-4x^3</m></caption>
+        <image xml:id="sec1-2-rootszerossolutions-ex1-fig1img1" width="50%">
+          <description><p>
+            The graph of <m>f(x) = x^4 - 4x^3</m> with zeros marked as red circles.
+          </p></description>
+          <sageplot>
+            p = plot(x^4 - 4*x^3, xmin = -2, xmax = 5, ymin = -27, ymax = 50)
+            c1 = point((0,0), size=60, color="red")
+            c2 = point((4,0), size=60, color="red")
+            p+c1+c2
+          </sageplot>
+        </image>
+      </figure>
+      <p>
+        The roots are at <m>x = 0</m> and <m>x = 4</m>; these are marked on the graph with red circles.
+      </p>
+    </statement>
+  </example>
+
+  <exercise xml:id="sec1-2-rootszerossolutions-cu1">
+    <statement>
+      <p>
+        Estimate the real zeros of the function <m>f(x) = x^4 - 10x^2 + x</m>
+      </p>
+      <figure xml:id="sec1-2-rootszerossolutions-cu1-fig1">
+        <caption>The graph of <m>f(x) = x^4-10x^2 + x</m></caption>
+        <image xml:id="sec1-2-rootszerossolutions-cu1-fig1img1" width = "50%">
+          <description><p>
+            The complete graph of <m>f(x) = x^4-10x^2 + x</m>
+          </p></description>
+          <sageplot>
+            plot(x^4 - 10*x^2+x, xmin = -4, xmax = 4, ymin = -27, ymax = 40)          
+          </sageplot>
+        </image>
+      </figure>
+    </statement>
+    <answer>
+      <p>
+        The roots are at approximately <m>x = -3.2</m>, <m>x = 0</m>, and <m>x = 3.1</m>
+      </p>
+    </answer>
+  </exercise>
 </section>

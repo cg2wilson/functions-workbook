@@ -1,0 +1,19 @@
+<number name="xmin">-2</number>
+            <number name="xmax">4.25</number>
+            <number name="ymin">-30</number>
+            <number name="ymax">30</number>
+
+            <p>xmin: <slider name="xminSlider" from="-10" to="10" step="0.25" bindValueTo="$xmin" /></p>
+            <p>xmax: <slider name="xmaxSlider" from="-10" to="10" step="0.25" bindValueTo="$xmax" /></p>
+            <p>ymin: <slider name="yminSlider" from="-100" to="100" step="1" bindValueTo="$ymin" /></p>
+            <p>ymax: <slider name="ymaxSlider" from="-100" to="100" step="1" bindValueTo="$ymax" /></p>
+
+            <graph
+              xmin="$xmin"
+              xmax="$xmax"
+              ymin="$ymin"
+              ymax="$ymax"
+              grid="medium"
+            >
+              <function>x^4 - 4x^3</function>
+            </graph>
