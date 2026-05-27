@@ -1,0 +1,5 @@
+/Users/cw/Library/CloudStorage/Dropbox/school/occc/functions-workbook/source/main.ptx:288:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element image has extra content: sageplot
+/Users/cw/Library/CloudStorage/Dropbox/school/occc/functions-workbook/source/main.ptx:282:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element video, got image
+/Users/cw/Library/CloudStorage/Dropbox/school/occc/functions-workbook/source/main.ptx:294:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element figure has extra content: image
+/Users/cw/Library/CloudStorage/Dropbox/school/occc/functions-workbook/source/main.ptx:280:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element figure there
+/Users/cw/Library/CloudStorage/Dropbox/school/occc/functions-workbook/source/main.ptx:280:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element sidebyside, got figure

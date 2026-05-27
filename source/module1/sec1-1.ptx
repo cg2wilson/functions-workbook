@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec1-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Section 1.1</title>
+    <definition xml:id="def-relation">
+      <title>Relation</title>
+      <statement>
+        <p>
+          A <term>relation</term> is a rule which establishes a relationship between two variables.
+        </p>
+      </statement>
+    </definition>
+    <definition xml:id="def-function">
+      <title>Function</title>
+      <statement>
+        <p>
+          A <term>function</term> is a relation that assigns to each element of one set (called the <term>domain</term>) exactly one element of the a second set (called the <term>range</term>).
+        </p>
+        <p>
+          Elements of the domain are called <term>inputs</term> or <term>independent variables</term> and elements of the range are called <term>outputs</term> or <term>dependent variables</term>.
+        </p>
+        <p>
+          A function may be defined by a set of ordered pairs, a table, a graph, an equation, or a verbal description.
+        </p>
+      </statement>
+    </definition>
+
+    <example xml:id="sec1-1-function-ex1">
+      <statement>
+        <p>
+          A local clothing store begins selling merchandise for a popular local sports team. The sales are given in the table below.
+        </p>
+        <table xml:id="sec1-1-function-ex1-table">
+          <title>Sales for a Local Clothing Store</title>
+          <tabular>
+            <row>
+              <cell>Day</cell>
+              <cell>2</cell>
+              <cell>4</cell>
+              <cell>6</cell>
+              <cell>8</cell>
+              <cell>10</cell>
+              <cell>12</cell>
+            </row>
+            <row>
+              <cell>Items Sold (in hundreds)</cell>
+              <cell>10.7</cell>
+              <cell>16.9</cell>
+              <cell>21.8</cell>
+              <cell>30.4</cell>
+              <cell>34.6</cell>
+              <cell>42.1</cell>
+            </row>
+          </tabular>
+        </table>
+        <p>
+          If we take "days" to be our inputs and "items sold" to be our outputs, then the table shows a <alert>relation</alert> between the two variables. This relation is a function because each input has only one output paired with it.
+        </p>
+        <p>
+          We can use the data to form a <term>scatterplot</term>- a plot of input/output pairs on a coordinate system:
+        </p>
+        <figure xml:id="sec1-1-function-ex1-fig1">
+          <caption>A scatterplot showing the relation in <xref ref="sec1-1-function-ex1-table"/></caption>
+          <image xml:id="sec1-1-function-ex1-fig1img1" width = "50%">
+            <description><p>
+              A graphical representation of the table in <xref ref="sec1-1-function-ex1-table"/>
+            </p></description>
+            <sageplot>
+              list = [[2,10.7],[4,16.9],[6,21.8],[8,30.4],[10,34.6],[12,42.1]]
+              scatter_plot(list, axes_labels=['days','items sold'], frame=True)
+            </sageplot>
+          </image>
+        </figure>
+        <p>
+          In the scatterplot, the <alert>independent variable</alert> is "days" while the <alert>dependent variable</alert> is "items sold".
+        </p>
+        <p>
+          If we make "days" the dependent variable and "items sold" the independent variable instead, the scatterplot looks like this:
+        </p>
+        <figure xml:id="sec1-1-function-ex1-fig2">
+          <caption>A second scatterplot showing the relation in <xref ref="sec1-1-function-ex1-table"/></caption>
+          <image xml:id="sec1-1-function-ex1-fig2img1" width = "50%">
+            <description><p>
+              A second graphical representation of the table in <xref ref="sec1-1-function-ex1-table"/>
+            </p></description>
+            <sageplot>
+               p = scatter_plot([[10.7,2],[16.9,4],[21.8,6],[30.4,8],[34.6,10],[42.1,12]], axes_labels=['items\n sold','days'], frame=True)
+            </sageplot>
+          </image>
+        </figure>
+      </statement>
+    </example>
+
+    <note xml:id="sec1-1-function-ex1-note">
+      <p>
+        In the previous example, the outputs were given in terms of <alert>hundred items sold</alert>- this means that the outputs should be read as, for example, "10.7 hundred items sold". 
+      </p>
+      <p>
+        Since this is not how we might normally think about numbers, it may be helpful to think about multiplying by 100 to get the actual number of items sold. This slightly changes the table to the following:
+      </p>
+      <table xml:id="sec1-1-function-ex1-note-table">
+          <title>Sales for a Local Clothing Store</title>
+          <tabular>
+            <row>
+              <cell>Day</cell>
+              <cell>2</cell>
+              <cell>4</cell>
+              <cell>6</cell>
+              <cell>8</cell>
+              <cell>10</cell>
+              <cell>12</cell>
+            </row>
+            <row>
+              <cell>Items Sold</cell>
+              <cell>1070</cell>
+              <cell>1690</cell>
+              <cell>2180</cell>
+              <cell>3040</cell>
+              <cell>3460</cell>
+              <cell>4210</cell>
+            </row>
+          </tabular>
+        </table>
+    </note>
+
+    <example xml:id="sec1-1-function-ex2">
+      <statement>
+        <p>
+          The following are all examples of functions:
+          <ul>
+            <li>
+              <p>
+                <m>y = 3x + 5</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>v = t^2 - 10</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>y = 0.2^x</m>
+              </p>
+            </li>
+          </ul>
+        </p>
+        <p>
+          You can check that these are functions because every input has only one output. But how do we know which is the input and which is the output?
+        </p>
+        <p>
+          The output is usually written as either a single variable (like <m>y</m> or <m>v</m> above) or by using function notation.
+        </p>
+      </statement>
+    </example>
+    
+    <assemblage xml:id="sec1-1-function-notation">
+      <title>Function Notation</title>
+      <p>
+        For a function whose inputs are represented by the variable <m>x</m>, and whose outputs are represented by the variable <m>f</m>, the the <term>function notation</term> for this relationship is shown as
+        <md>
+          <mrow>f(x)</mrow>
+        </md>
+               
+      </p>
+      <p>
+        This is read as "<m>f</m> of <m>x</m>".
+      </p>
+    </assemblage>
+
+    <example xml:id="sec1-1-notation-ex1">
+      <statement>
+        <p>
+          Let's return to the data from <xref ref="sec1-1-function-ex1"/>.
+        </p>
+        <table xml:id="sec1-1-notation-ex1-table">
+          <title>Sales for a Local Clothing Store</title>
+          <tabular>
+            <row>
+              <cell>Day</cell>
+              <cell>2</cell>
+              <cell>4</cell>
+              <cell>6</cell>
+              <cell>8</cell>
+              <cell>10</cell>
+              <cell>12</cell>
+            </row>
+            <row>
+              <cell>Items Sold (in hundreds)</cell>
+              <cell>10.7</cell>
+              <cell>16.9</cell>
+              <cell>21.8</cell>
+              <cell>30.4</cell>
+              <cell>34.6</cell>
+              <cell>42.1</cell>
+            </row>
+          </tabular>
+        </table>
+        <p>
+          If we let <m>S</m> represent for 'items sold' and let <m>d</m> represent the days since the merchandise sales began, then our function is given by the notation <m>S(d)</m>. Here, <m>d</m> is the independent variable and <m>S</m> is the dependent variable.
+        </p>
+        <p>
+          The notation <m>S(4)</m> instructs us to look for the input <m>d = 4</m> and find the corresponding output paired with <m>d = 4</m>. In this case, <m>S(4) = 16.9</m> hundred items sold. Following <xref ref="sec1-1-function-ex1-note"/>, we could also write <m>S(4) = 1690</m> items sold. Knowing which one to use depends entirely on the question- be careful!
+        </p>
+      </statement>
+    </example>
+    <exercise xml:id="sec1-1-notation-cu1">
+      <statement>
+        <p>
+          Use <xref ref="sec1-1-notation-ex1-table"/> and <xref ref="sec1-1-notation-ex1"/> to the following questions.
+          <ol>
+            <li>
+              <p>
+                Write the function notation for the input/output pair <m>(8,30.4)</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                Write a brief sentence translating the notation <m>S(12) = 42.1</m> from math to English.
+              </p>
+            </li>
+            <li>
+              <p>
+                For which input <m>d</m> is it true that <m>S(d) = 21.8</m>?
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <ol>
+            <li>
+              <p>
+                <m>S(8) = 30.4</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                An example sentence might be "Twelve days after merchandise began selling, 42.1 hundred items were sold.". Anything that is syntactically equivalent is acceptable.
+              </p>
+            </li>
+            <li>
+              <p>
+                This occurs when <m>d = 6</m>.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </answer>
+    </exercise>
+
+    <example xml:id="sec1-1-notation-ex2">
+      <statement>
+        <p>
+          We can also find function values when given a rule or graph.
+        </p>
+        <p>
+          Consider the function <m>f(x) = x^4 - 4x^3 + 2</m>. The statement <m>f(1)</m> says that the input variable, which we represent by <m>x</m>, should be replaced by the number <m>1</m>. So, 
+          <md>
+            <mrow>f(1) = (1)^4 - 4(1)^3 + 2 = 1 - 4 + 2 = -1</mrow>
+          </md>
+          Thus, <m>f(1) = -1</m>
+        </p>
+        <p>
+          We can use the graph to find similar information. 
+        </p>
+        <figure xml:id="sec1-1-notation-ex2-fig1">
+          <caption>The graph of <m>x^4-4x^3 + 2</m></caption>
+          <image xml:id="sec1-1-notation-ex2-fig1img1" width="50%">
+            <description><p>The graph of <m>x^4 - 4x^3 + 2</m></p></description>
+            <sageplot>
+              plot(x^4 -4*x^3 + 2, xmin = -1.5, xmax = 4.25, gridlines=[srange(-1.5,4.25,0.5), range(-26,22,2)])
+            </sageplot>
+          </image>
+        </figure>
+        <p>
+          We can find <m>f(2)</m> by first finding <m>2</m> on the horizontal axis, then finding the corresponding point on the function. 
+        </p>
+        <figure xml:id="sec1-1-notation-ex2-fig2">
+          <caption>Finding a point on a function</caption>
+          <image xml:id="sec1-1-notation-ex2-fig2img1" width="50%">
+            <description>
+              <p>
+                Locating <m>2</m> on the horizontal axis
+              </p>
+            </description>
+            <sageplot>
+              p = plot(x^4 - 4*x^3 + 2, xmin = -1.5, xmax = 4.25, gridlines = [srange(-1.5,4.25,0.5), range(-26,22,2)])
+              pt1 = point((2,0), size=60, color="red")
+              pt1 + p
+            </sageplot>
+          </image>
+          <image xml:id="sec1-1-notation-ex2-fig2img2" width="50%">
+            <description><p>Locating <m>f(2)</m> on the function</p></description>
+            <sageplot>
+              p = plot(x^4 - 4*x^3 + 2, xmin = -1.5, xmax = 4.25, gridlines = [srange(-1.5,4.25,0.5), range(-26,22,2)])
+              pt1 = point((2,0), size=60, color="red")
+              pt2 = point((2,-14), size=60, color="green")
+              l = arrow((2,0),(2,-14), linestyle=":", color="green")
+              p+pt1+pt2 + l
+            </sageplot>
+          </image>
+        </figure>
+      </statement>
+    </example>
+    <exercise xml:id="sec1-1-notation-cu2">
+      <statement>
+        <p>
+          Let <m>f(t) = 10t - t^2</m> and <m>g(x)</m> be given by the graph below.
+        </p>
+        <figure xml:id="sec1-1-notation-cu2-fig1">
+          <caption>The graph of <m>g(x)</m></caption>
+          <image xml:id="sec1-1-notation-cu2-fig1img1" width = "50%">
+            <description><p>
+              The graph of <m>g(x) = x + 5</m>
+            </p></description>
+            <sageplot>
+              plot(x + 5, xmin = -10, xmax = 10, gridlines=True)
+            </sageplot>
+          </image>
+        </figure>
+        <p>
+          Answer the following:
+          <ol>
+            <li>
+              <p>
+                What is <m>f(10)?</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                Find <m>g(-2)</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                For what vaue is <m>g(x) = 6</m>?
+              </p>
+            </li>
+            <li>
+              <p>
+                What is <m>f(0.5)</m>?
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <ol>
+            <li>
+              <p>
+                <m>f(10) = 0</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>g(-2) = 3</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>g(1) = 6</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>f(0.5) = 4.75</m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </answer>
+    </exercise>
+</section>
