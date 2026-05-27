@@ -115,7 +115,115 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Section 1.2",
-  "body": " Section 1.2    "
+  "body": " Section 1.2   Graphing tools like Desmos will be helpful as you move throughout the course. You can access the Desmos Graphing Calculator by clicking this link     Complete Graph   A complete graph is a graph which shows the basic shape of the graph and important points on the graph (including points where the graph crosses the axes and points where the graph turns) and suggests what the unseen portions of the graph will be.      The graph below is considered complete because it shows the \"interesting\" behavior of the function- where it crosses the axes, where it turns, etc.   An example of a complete graph.   The graph of      In the above image, the viewing window has xmin = -2 , xmax = 5 , ymin = -27 , and ymax = 50 . Here, xmin and ymin are the smallest values that the and axes will display, respectively; similarly, xmax and ymax are the largest values that the and axes will display, respectively. Use the interactive below to see what happens when you change the viewing window.   An interactive for determining the bounds on a complete graph.        Is the graph shown below a complete graph? Why or why not?   The graph of a function: is it complete?   The graph of a function.       It is not complete, for three reasons:   It does not show where the graph crosses the axis on the left-hand side of the graph.    It does not show the location of the lowest point on the graph.    Because we cut the graph off on the left, it's not clear that the function keeps going up and to the left.        The location where a graph hits a \"peak\" or a \"trough\" has a name! These are called relative extrema .    Relative Maximum\/Relative Minimum   A relative maximum of a function is a point on the graph of the function where the output is larger than the outputs around it.  A relative minimum of a function is a point on the graph of the function where the output is smaller than the outputs around it.  Collectively, relative maxima and minima are called relative (or local) extrema      Because the words are derived from Latin, the plural of \"maximum\" is \"maxima\", the plural of \"minimum\" is \"minima\", and the plural of \"extremum\" is \"extrema\".     In the image from , there is one relative extremum (it is copied below).   An example of a complete graph.   The graph of      The relative minimum occurs at approximately and       In the image below, estimate the location of the relative maxima and minima.   The complete graph of a function.   The complete graph of        There is a relative maximum at approximately , and there are local minima at and      Roots\/Zeros\/Solutions   A root of a function is the input value where it crosses the axis, i.e. is a solution to the equation .  A root is also called a zero or solution .      Again using the function , there are two roots\/zeros\/solutions:   The graph of   The graph of with zeros marked as red circles.     The roots are at and ; these are marked on the graph with red circles.      Estimate the real zeros of the function    The graph of   The complete graph of        The roots are at approximately , , and     "
+},
+{
+  "id": "sec1-2-2",
+  "level": "2",
+  "url": "sec1-2.html#sec1-2-2",
+  "type": "Note",
+  "number": "1.2.1",
+  "title": "",
+  "body": " Graphing tools like Desmos will be helpful as you move throughout the course. You can access the Desmos Graphing Calculator by clicking this link   "
+},
+{
+  "id": "def-complete-graph",
+  "level": "2",
+  "url": "sec1-2.html#def-complete-graph",
+  "type": "Definition",
+  "number": "1.2.2",
+  "title": "Complete Graph.",
+  "body": " Complete Graph   A complete graph is a graph which shows the basic shape of the graph and important points on the graph (including points where the graph crosses the axes and points where the graph turns) and suggests what the unseen portions of the graph will be.   "
+},
+{
+  "id": "sec1-2-completegraph-ex1",
+  "level": "2",
+  "url": "sec1-2.html#sec1-2-completegraph-ex1",
+  "type": "Example",
+  "number": "1.2.3",
+  "title": "",
+  "body": "  The graph below is considered complete because it shows the \"interesting\" behavior of the function- where it crosses the axes, where it turns, etc.   An example of a complete graph.   The graph of      In the above image, the viewing window has xmin = -2 , xmax = 5 , ymin = -27 , and ymax = 50 . Here, xmin and ymin are the smallest values that the and axes will display, respectively; similarly, xmax and ymax are the largest values that the and axes will display, respectively. Use the interactive below to see what happens when you change the viewing window.   An interactive for determining the bounds on a complete graph.     "
+},
+{
+  "id": "sec1-2-completegraph-cu1",
+  "level": "2",
+  "url": "sec1-2.html#sec1-2-completegraph-cu1",
+  "type": "Check Your Understanding",
+  "number": "1.2.6",
+  "title": "",
+  "body": "  Is the graph shown below a complete graph? Why or why not?   The graph of a function: is it complete?   The graph of a function.       It is not complete, for three reasons:   It does not show where the graph crosses the axis on the left-hand side of the graph.    It does not show the location of the lowest point on the graph.    Because we cut the graph off on the left, it's not clear that the function keeps going up and to the left.      "
+},
+{
+  "id": "sec1-2-completegraph-note-1",
+  "level": "2",
+  "url": "sec1-2.html#sec1-2-completegraph-note-1",
+  "type": "Note",
+  "number": "1.2.8",
+  "title": "",
+  "body": " The location where a graph hits a \"peak\" or a \"trough\" has a name! These are called relative extrema .  "
+},
+{
+  "id": "def-relative-extrema",
+  "level": "2",
+  "url": "sec1-2.html#def-relative-extrema",
+  "type": "Definition",
+  "number": "1.2.9",
+  "title": "Relative Maximum\/Relative Minimum.",
+  "body": " Relative Maximum\/Relative Minimum   A relative maximum of a function is a point on the graph of the function where the output is larger than the outputs around it.  A relative minimum of a function is a point on the graph of the function where the output is smaller than the outputs around it.  Collectively, relative maxima and minima are called relative (or local) extrema    "
+},
+{
+  "id": "sec1-2-extrema-note-1",
+  "level": "2",
+  "url": "sec1-2.html#sec1-2-extrema-note-1",
+  "type": "Note",
+  "number": "1.2.10",
+  "title": "",
+  "body": " Because the words are derived from Latin, the plural of \"maximum\" is \"maxima\", the plural of \"minimum\" is \"minima\", and the plural of \"extremum\" is \"extrema\".  "
+},
+{
+  "id": "sec1-2-extrema-ex1",
+  "level": "2",
+  "url": "sec1-2.html#sec1-2-extrema-ex1",
+  "type": "Example",
+  "number": "1.2.11",
+  "title": "",
+  "body": "  In the image from , there is one relative extremum (it is copied below).   An example of a complete graph.   The graph of      The relative minimum occurs at approximately and    "
+},
+{
+  "id": "sec1-2-extrema-cu1",
+  "level": "2",
+  "url": "sec1-2.html#sec1-2-extrema-cu1",
+  "type": "Check Your Understanding",
+  "number": "1.2.13",
+  "title": "",
+  "body": "  In the image below, estimate the location of the relative maxima and minima.   The complete graph of a function.   The complete graph of        There is a relative maximum at approximately , and there are local minima at and    "
+},
+{
+  "id": "def-rootszerossolutions",
+  "level": "2",
+  "url": "sec1-2.html#def-rootszerossolutions",
+  "type": "Definition",
+  "number": "1.2.15",
+  "title": "Roots\/Zeros\/Solutions.",
+  "body": " Roots\/Zeros\/Solutions   A root of a function is the input value where it crosses the axis, i.e. is a solution to the equation .  A root is also called a zero or solution .   "
+},
+{
+  "id": "sec1-2-rootszerossolutions-ex1",
+  "level": "2",
+  "url": "sec1-2.html#sec1-2-rootszerossolutions-ex1",
+  "type": "Example",
+  "number": "1.2.16",
+  "title": "",
+  "body": "  Again using the function , there are two roots\/zeros\/solutions:   The graph of   The graph of with zeros marked as red circles.     The roots are at and ; these are marked on the graph with red circles.   "
+},
+{
+  "id": "sec1-2-rootszerossolutions-cu1",
+  "level": "2",
+  "url": "sec1-2.html#sec1-2-rootszerossolutions-cu1",
+  "type": "Check Your Understanding",
+  "number": "1.2.18",
+  "title": "",
+  "body": "  Estimate the real zeros of the function    The graph of   The complete graph of        The roots are at approximately , , and    "
 },
 {
   "id": "backmatter-2",
