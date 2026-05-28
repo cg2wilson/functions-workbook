@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec2-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Section 2.1</title>
+
+  <definition xml:id="def-literaleqn">
+    <title>Literal Equation</title>
+    <statement>
+        <p>
+            A <term>literal equation</term> is an equation that contains two or more letters that represent constants or variables.
+        </p>
+    </statement>
+  </definition>
+  <assemblage xml:id="sec2-1-literaleqns">
+    <title>Solving Literal Equations</title>
+    <p>
+        To solve a literal equation for a specific variable, use the order of operations to isolate the variable.
+    </p>
+  </assemblage>
+
+  <example xml:id="sec2-1-literal-ex1">
+    <statement>
+        <p>
+            For the literal equation <m>PV = nRT</m>, if we want to solve for <m>P</m>, we need to divide both sides by <m>V</m>:
+            <md>
+                <mrow>P = \dfrac{nRT}{V}</mrow>
+            </md>
+        </p>
+        <p>
+            If we want to solve for <m>T</m>, then we need to get <m>T</m> by itself by dividing both sides by <m>nR</m>:
+            <md>
+                <mrow>\dfrac{PV}{nR} = T</mrow>
+            </md>
+        </p>
+    </statement>
+  </example>
+
+  <example xml:id="sec2-1-literal-ex2">
+    <statement>
+        <p>
+            For more complicated literal equations, we need to follow the order of operations more closely. Consider the equation <m>A = P(2+rt)</m>, and suppose we want to solve for <m>r</m>.
+        </p>
+        <p>
+            One way to solve the equation is by distributing the <m>P</m> through to both terms on the inside of the parentheses to get
+            <md>
+                <mrow>A = 2P + Prt</mrow>
+            </md>
+            Now we need to get <m>r</m> as isolated as possible. Subtract the <m>2P</m> from both sides to get
+            <md>
+                <mrow>A - 2P = Prt</mrow>
+            </md>
+            Now since <m>Pt</m> is multiplying <m>r</m>, we can divide both sides by <m>Pt</m> to get
+            <md>
+                <mrow> \dfrac{A-2P}{Pt} = r</mrow>
+            </md>
+        </p>
+        <p>
+            A second way to solve the equation is by noticing that if we divide both sides by <m>P</m>, we can avoid some of the algebra from solution one:
+            <md>
+                <mrow>\dfrac{A}{P} = 2 + rt</mrow>
+            </md>
+            Now subtract <m>2</m> from both sides:
+            <md>
+                <mrow>\dfrac{A}{P} - 2 = rt</mrow>
+            </md>
+            Now divide by <m>t</m> to get the <alert>algebraically equivalent</alert> answer
+            <md>
+                <mrow>\dfrac{A/P - 2}{t} = r</mrow>
+            </md>
+        </p>
+    </statement>
+  </example>
+
+  <exercise xml:id="sec2-1-literal-cu1">
+    <statement>
+        <p>
+            Solve the equation <m>2(2x-b) = \dfrac{4c}{3}</m> for <m>c</m> and then for <m>x</m>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            When solving for <m>c</m>, we get
+            <md>
+                <mrow>\dfrac{3}{4}\cdot 2(2x-b) = c </mrow>
+            </md>
+            or
+            <md>
+                <mrow>\dfrac{3(2x-b)}{2} = c</mrow>
+            </md>
+        </p>
+        <p>
+            Solving for <m>x</m>, we get 
+            <md>
+                <mrow>x = \dfrac{2c/3 + b}{2} </mrow>
+            </md>
+        </p>
+    </answer>
+  </exercise>
+
+  <definition xml:id="def-directproportion">
+    <statement>
+        <p>
+            A <term>direct proportion</term> is a relationship between two variables <m>x</m> and <m>y</m> such that 
+            <md>
+                <mrow>y = kx</mrow>
+            </md>
+            for some value <m>k</m> (called the <term>proportionality constant</term>)        
+        </p>
+    </statement>
+  </definition>
+  <example xml:id="sec2-1-proportion-ex1">
+    <statement>
+        <p>
+            Suppose that the cost of a used car, including a 8% sales tax on the price of the car, is $12,500. How much of the total cost of this car is sales tax?
+        </p>
+        <p>
+            The total price, <m>T</m>, is made up of two pieces: <m>P</m>, the price of the car without tax, and <m>A</m>, the amount of tax paid on the price of the car. 
+        </p>
+        <p>
+            We know that the total is $12,500 and that the tax rate is 8%. This means that 8% of <m>P</m> must be the tax paid. So, <m>A = 0.08P</m>
+        </p>
+        <p>
+            Now, <m>12,500 = P + 0.08P</m>, so that <m>12,500 = 1.08P</m>. To solve for <m>P</m>, the price of the car without tax, we divide by <m>1.08</m> to get
+            <md>
+                <mrow> P = \dfrac{12500}{1.08} \approx 11,574.07</mrow>
+            </md>
+            So, the price of the car was $11,574.07.
+        </p>
+    </statement>
+  </example>
+
+  <exercise xml:id="sec2-1-proportion-cu1">
+    <statement>
+        <p>
+            A company lost a lawsuit and was made to pay 7.4 million dollars to the plaintiff. If this amount was 125% of the company's revenue in the 2025 fiscal year, how much revenue did the company make in FY2025?
+        </p>
+    </statement>
+    <answer>
+        <p>
+            5.92 million dollars.
+        </p>
+    </answer>
+  </exercise>
+
+
+</section>
