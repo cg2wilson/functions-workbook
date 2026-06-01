@@ -8,7 +8,7 @@
       <p>
         A <term>linear function</term> is a function which can be written in the form
         <md>
-          f(x) = ax + b
+          <mrow>f(x) = ax + b</mrow>
         </md>
         where <m>a</m> and <m>b</m> are constants.
       </p>
@@ -52,6 +52,9 @@
       <p>
         The <term>constant rate of change</term> of a linear function is the value of its slope.
       </p>
+      <p>
+        The units of a rate of change are always <alert>output per input</alert>
+      </p>
     </statement>
   </definition>
 
@@ -84,14 +87,101 @@
     </statement>
   </example>
 
+  <example xml:id="sec1-342-2-linear-ex2">
+    <statement>
+      <p>
+        Assume that the function <m>M(x) = 0.137x + 11.068</m> gives the number of animals (in thousands) in a federally protected marine zone, <m>x</m> years since the zone was established. 
+      </p>
+      <p>
+        This function is linear because it can be written in the form <m>y = ax + b</m>; here, <m>y = M(x)</m>, <m>a = 0.137</m>, and <m>b = 11.068</m>.
+      </p>
+      <p>
+        The <m>x-</m>intercept is at <m>x = -80.789</m> (rounding to three decimal places), and the <m>y-</m>intercept is at <m>y = 11.068</m>.
+      </p>
+      <p>
+        The slope is <m>a = 0.137</m>, which tells us that the number of animals increases by 0.137 thousand animals per year.
+      </p>
+    </statement>
+  </example>
+
+  <exercise xml:id="sec1-342-2-linear-cu1">
+    <statement>
+      <p>
+        An electric scooter company determines the cost of a ride by charging a base price of $1.50 plus a charge of $0.20 per minute used. Write an equation for the monthly charge <m>C</m> (in dollars) as a function of <m>m</m>, the number of minutes used.
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>C = 0.20m + 1.50</m>
+      </p>
+    </answer>
+  </exercise>
+
+  <definition xml:id="def-costrevprofit">
+    <title>Cost, Revenue, and Profit</title>    
+    <statement>
+      <p>
+        <term>Total cost</term> of a product is composed of two parts: fixed and variable costs. <term>Fixed costs</term> are those which remain constant regardless of the number of units produced. <term>Variable costs</term> are those directly related to the number of units produced.
+      </p>
+      <p>
+        <term>Revenue</term> is the total amount of money earned, generally found by multiplying the price per unit times the number of units.
+      </p>
+      <p>
+        <term>Profit</term> is the amount of money earned after accounting for cost. Profit can be written as 
+        <md>
+          <mrow> P(x) = R(x) - C(x) </mrow>
+        </md>
+        where <m>P(x)</m> is profit from the production of <m>x</m> units, <m>R(x)</m> is the revenue from the production of <m>x</m> units, and <m>C(x)</m> is the cost from the production of <m>x</m> units. 
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="sec1-342-2-costrevprofit-ex1">
+    <statement>
+      <p>
+        Suppose that a company manufactures 50-inch QLED TVs and sells them for $700. The costs incurred in the production and sale of the TVs are $100,000 plus $500 for each TV produced and sold.
+      </p>
+      <p>
+        The total cost is the sum of variable and fixed costs. The production costs $100,000 independent of the number of units produced, so this is our fixed cost. The variable cost adds $500 for each TV produced; this means that
+        <md>
+          <mrow> C(x) = 100000 + 500x </mrow>
+        </md>
+        where <m>x</m> is the number of units produced. 
+      </p>
+      <p>
+        The revenue is the amount of money made from the sale of <m>x</m> TVs. Since each TV is sold for $700, the revenue is given by 
+        <md>
+          <mrow> R(x) = 700x</mrow>
+        </md>
+      </p>
+      <p>
+        This means that the profit is given by
+        <md>
+          <mrow> P(x) \amp = R(x) - C(x)</mrow>
+          <mrow> P(x) \amp = 700x - (500x + 100000) </mrow>
+          <mrow> P(x) \amp = 200x - 100000 </mrow>
+        </md>
+        So the profit function is given by <m>P(x) = 200x - 100000</m> dollars when <m>x</m> units are sold.
+      </p>
+    </statement>
+  </example>
+
+  <exercise xml:id="sec1-342-2-costrevprofit-cu1">
+    <statement>
+      <p>
+        A company charting its profits notices that the relationship between the number of units sold <m>t</m> and profit <m>P</m> is linear. If 300 units sold results in $4650 profit and 375 units sold results in $9000 profit, find a formula for the profit.
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>P(x) = 58x </m>
+      </p>
+    </answer>
+  </exercise>
+
   <p>
     Things to discuss:
     <ul>
-      <li>
-        <p>
-          constant functions
-        </p>
-      </li>
       <li>
         <p>
           slope-intercept form
@@ -100,16 +190,6 @@
       <li>
         <p>
           point-slope form
-        </p>
-      </li>
-      <li>
-        <p>
-          equation of vertical/horizontal lines
-        </p>
-      </li>
-      <li>
-        <p>
-          profit, revenue, cost
         </p>
       </li>
       <li>
