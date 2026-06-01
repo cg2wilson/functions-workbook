@@ -304,7 +304,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "Section 1.3\/1.4\/2.2",
-  "body": " Section 1.3\/1.4\/2.2   Linear Function   A linear function is a function which can be written in the form where and are constants.     Intercepts   An intercept is the location where a function crosses an axis.  An intercept is an input where the function crosses the axis, and a intercept is an output where the function crosses the axis.     Because intercepts occur when a function crosses the axis, this means that all outputs are zero. In particular, this means that all intercepts are solutions to the equation .  Similarly, the intercept occurs at because the input is 0 along the axis. A function can only have one  intercept by definition of a function (see ).    Slope   The slope of a linear function is defined as the ratio of vertical change to horizontal change. This can be understood to be \"rise over run\" of the function.  The slope of a linear equation is the value of the constant .     Constant Rate of Change   The constant rate of change of a linear function is the value of its slope.      Consider the equation . It is linear because we can isolate and write the equation in the form ; rewriting gives   If we want to find the intercept, we can do so by setting . This gives: So the intercept occurs at .  For the intercept, we need to find . This means we plug in 0 to the equation:   Since the slope is the value of the constant when the equation is in the form , and we know that , the slope is . This tells us that when creating the line, to move from one point to another, we must go down two units and right five units.    Things to discuss:   constant functions    slope-intercept form    point-slope form    equation of vertical\/horizontal lines    profit, revenue, cost    average rate of change    computing linear regressions     "
+  "body": " Section 1.3\/1.4\/2.2   Linear Function   A linear function is a function which can be written in the form where and are constants.     Intercepts   An intercept is the location where a function crosses an axis.  An intercept is an input where the function crosses the axis, and a intercept is an output where the function crosses the axis.     Because intercepts occur when a function crosses the axis, this means that all outputs are zero. In particular, this means that all intercepts are solutions to the equation .  Similarly, the intercept occurs at because the input is 0 along the axis. A function can only have one  intercept by definition of a function (see ).    Slope   The slope of a linear function is defined as the ratio of vertical change to horizontal change. This can be understood to be \"rise over run\" of the function.  The slope of a linear equation is the value of the constant .     Constant Rate of Change   The constant rate of change of a linear function is the value of its slope.  The units of a rate of change are always output per input       Consider the equation . It is linear because we can isolate and write the equation in the form ; rewriting gives   If we want to find the intercept, we can do so by setting . This gives: So the intercept occurs at .  For the intercept, we need to find . This means we plug in 0 to the equation:   Since the slope is the value of the constant when the equation is in the form , and we know that , the slope is . This tells us that when creating the line, to move from one point to another, we must go down two units and right five units.      Assume that the function gives the number of animals (in thousands) in a federally protected marine zone, years since the zone was established.  This function is linear because it can be written in the form ; here, , , and .  The intercept is at (rounding to three decimal places), and the intercept is at .  The slope is , which tells us that the number of animals increases by 0.137 thousand animals per year.      An electric scooter company determines the cost of a ride by charging a base price of $1.50 plus a charge of $0.20 per minute used. Write an equation for the monthly charge (in dollars) as a function of , the number of minutes used.         Things to discuss:   constant functions    slope-intercept form    point-slope form    equation of vertical\/horizontal lines    profit, revenue, cost    average rate of change    computing linear regressions     "
 },
 {
   "id": "def-linear-function",
@@ -349,7 +349,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "1.4.5",
   "title": "Constant Rate of Change.",
-  "body": " Constant Rate of Change   The constant rate of change of a linear function is the value of its slope.   "
+  "body": " Constant Rate of Change   The constant rate of change of a linear function is the value of its slope.  The units of a rate of change are always output per input    "
 },
 {
   "id": "sec1-342-2-linear-ex1",
@@ -359,6 +359,24 @@ var ptx_lunr_docs = [
   "number": "1.4.6",
   "title": "",
   "body": "  Consider the equation . It is linear because we can isolate and write the equation in the form ; rewriting gives   If we want to find the intercept, we can do so by setting . This gives: So the intercept occurs at .  For the intercept, we need to find . This means we plug in 0 to the equation:   Since the slope is the value of the constant when the equation is in the form , and we know that , the slope is . This tells us that when creating the line, to move from one point to another, we must go down two units and right five units.   "
+},
+{
+  "id": "sec1-342-2-linear-ex2",
+  "level": "2",
+  "url": "sec1-342-2.html#sec1-342-2-linear-ex2",
+  "type": "Example",
+  "number": "1.4.7",
+  "title": "",
+  "body": "  Assume that the function gives the number of animals (in thousands) in a federally protected marine zone, years since the zone was established.  This function is linear because it can be written in the form ; here, , , and .  The intercept is at (rounding to three decimal places), and the intercept is at .  The slope is , which tells us that the number of animals increases by 0.137 thousand animals per year.   "
+},
+{
+  "id": "sec1-342-2-linear-cu1",
+  "level": "2",
+  "url": "sec1-342-2.html#sec1-342-2-linear-cu1",
+  "type": "Check Your Understanding",
+  "number": "1.4.8",
+  "title": "",
+  "body": "  An electric scooter company determines the cost of a ride by charging a base price of $1.50 plus a charge of $0.20 per minute used. Write an equation for the monthly charge (in dollars) as a function of , the number of minutes used.        "
 },
 {
   "id": "backmatter-2",
