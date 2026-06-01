@@ -19,7 +19,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
 <script>
 var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
@@ -63,7 +62,7 @@ window.MathJax = {
       "[pretext]/mathjaxknowl3.js"
     ],
     "paths": {
-      "pretext": "_static/pretext/js/lib"
+      "pretext": "_static/pretext/js"
     }
   },
   "startup": {
@@ -80,7 +79,7 @@ window.MathJax = {
 <meta property="og:type" content="book">
 <meta property="book:title" content="Functions and Modeling Workbook">
 <meta property="book:author" content="Cory Wilson">
-<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -111,7 +110,7 @@ eBookConfig.enable_chatcodes =  false;
 <!--*** Runestone Services ***-->
 <script src="_static/prefix-runtime.dcab57465a404e85.bundle.js"></script><script src="_static/prefix-713.de0ab26248766350.bundle.js"></script><script src="_static/prefix-runestone.79fbb790b185d712.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-713.f43ced6a6134ea74.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.87414d180ebeebd6.css">
-<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
 <body class="pretext book ignore-math">
@@ -153,10 +152,10 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec1-342-2"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.4</span><span class="space"> </span><span class="title">Section 1.3/1.4/2.2</span>
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Section 1.3/1.4/2.2</span>
 </h2>
 <article class="definition definition-like" id="def-linear-function"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.4.1</span><span class="period">.</span><span class="space"> </span><span class="title">Linear Function.</span>
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.4.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Linear Function.</span>
 </h3>
 <div class="para logical" id="def-linear-function-2-1">
 <div class="para">A <dfn class="terminology">linear function</dfn> is a function which can be written in the form</div>
@@ -166,35 +165,35 @@ f(x) = ax + b
 \end{gather*}
 </div>
 <div class="para">where <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> are constants.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#def-linear-function-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#def-linear-function-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Definition 1.4.1: Linear Function"><a href="#def-linear-function" title="Copy heading and permalink for Definition 1.4.1: Linear Function">🔗</a></div></article><article class="definition definition-like" id="def-intercepts"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.4.2</span><span class="period">.</span><span class="space"> </span><span class="title">Intercepts.</span>
+<div class="autopermalink" data-description="Definition 1.4.1: Linear Function"><a href="#def-linear-function" title="Copy heading and permalink for Definition 1.4.1: Linear Function" aria-label="Copy heading and permalink for Definition 1.4.1: Linear Function">🔗</a></div></article><article class="definition definition-like" id="def-intercepts"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.4.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Intercepts.</span>
 </h3>
-<div class="para" id="def-intercepts-2-1">An <dfn class="terminology">intercept</dfn> is the location where a function crosses an axis.<div class="autopermalink" data-description="Paragraph"><a href="#def-intercepts-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="def-intercepts-2-2">An <dfn class="terminology"><span class="process-math">\(x-\)</span>intercept</dfn> is an input where the function crosses the <span class="process-math">\(x-\)</span>axis, and a <dfn class="terminology"><span class="process-math">\(y-\)</span>intercept</dfn> is an output where the function crosses the <span class="process-math">\(y-\)</span>axis.<div class="autopermalink" data-description="Paragraph"><a href="#def-intercepts-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="def-intercepts-2-1">An <dfn class="terminology">intercept</dfn> is the location where a function crosses an axis.<div class="autopermalink" data-description="Paragraph"><a href="#def-intercepts-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="def-intercepts-2-2">An <dfn class="terminology"><span class="process-math">\(x-\)</span>intercept</dfn> is an input where the function crosses the <span class="process-math">\(x-\)</span>axis, and a <dfn class="terminology"><span class="process-math">\(y-\)</span>intercept</dfn> is an output where the function crosses the <span class="process-math">\(y-\)</span>axis.<div class="autopermalink" data-description="Paragraph"><a href="#def-intercepts-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Definition 1.4.2: Intercepts"><a href="#def-intercepts" title="Copy heading and permalink for Definition 1.4.2: Intercepts">🔗</a></div></article><article class="note remark-like" id="sec1-342-2-intercepts-note-1"><h3 class="heading">
-<span class="type">Note</span><span class="space"> </span><span class="codenumber">1.4.3</span><span class="period">.</span>
+<div class="autopermalink" data-description="Definition 1.4.2: Intercepts"><a href="#def-intercepts" title="Copy heading and permalink for Definition 1.4.2: Intercepts" aria-label="Copy heading and permalink for Definition 1.4.2: Intercepts">🔗</a></div></article><article class="note remark-like" id="sec1-342-2-intercepts-note-1"><h3 class="heading">
+<span class="type">Note</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.4.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h3>
-<div class="para" id="sec1-342-2-intercepts-note-1-1">Because <span class="process-math">\(x-\)</span>intercepts occur when a function crosses the <span class="process-math">\(x-\)</span>axis, this means that all outputs are zero. In particular, this means that all <span class="process-math">\(x-\)</span>intercepts are solutions to the equation <span class="process-math">\(f(x) = 0\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-intercepts-note-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec1-342-2-intercepts-note-1-1">Because <span class="process-math">\(x-\)</span>intercepts occur when a function crosses the <span class="process-math">\(x-\)</span>axis, this means that all outputs are zero. In particular, this means that all <span class="process-math">\(x-\)</span>intercepts are solutions to the equation <span class="process-math">\(f(x) = 0\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-intercepts-note-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec1-342-2-intercepts-note-1-2">Similarly, the <span class="process-math">\(y-\)</span>intercept occurs at <span class="process-math">\(y = f(0)\)</span> because the input is 0 along the <span class="process-math">\(y-\)</span>axis. A function can only have <em class="alert">one</em> <span class="process-math">\(y-\)</span>intercept by definition of a function (see <a href="sec1-1.html#def-function" class="xref" data-knowl="./knowl/xref/def-function.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 1.1.2: Function">Definition 1.1.2</a>).<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-intercepts-note-1-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec1-342-2-intercepts-note-1-2">Similarly, the <span class="process-math">\(y-\)</span>intercept occurs at <span class="process-math">\(y = f(0)\)</span> because the input is 0 along the <span class="process-math">\(y-\)</span>axis. A function can only have <em class="alert">one</em> <span class="process-math">\(y-\)</span>intercept by definition of a function (see <a href="sec1-1.html#def-function" class="xref" data-knowl="./knowl/xref/def-function.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 1.1.2: Function">Definition 1.1.2</a>).<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-intercepts-note-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Note 1.4.3"><a href="#sec1-342-2-intercepts-note-1" title="Copy heading and permalink for Note 1.4.3">🔗</a></div></article><article class="definition definition-like" id="def-slope"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.4.4</span><span class="period">.</span><span class="space"> </span><span class="title">Slope.</span>
+<div class="autopermalink" data-description="Note 1.4.3"><a href="#sec1-342-2-intercepts-note-1" title="Copy heading and permalink for Note 1.4.3" aria-label="Copy heading and permalink for Note 1.4.3">🔗</a></div></article><article class="definition definition-like" id="def-slope"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.4.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Slope.</span>
 </h3>
-<div class="para" id="def-slope-2-1">The <dfn class="terminology">slope</dfn> of a linear function is defined as the ratio of vertical change to horizontal change. This can be understood to be "rise over run" of the function.<div class="autopermalink" data-description="Paragraph"><a href="#def-slope-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="def-slope-2-2">The slope of a linear equation <span class="process-math">\(y = ax + b\)</span> is the value of the constant <span class="process-math">\(a\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#def-slope-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="def-slope-2-1">The <dfn class="terminology">slope</dfn> of a linear function is defined as the ratio of vertical change to horizontal change. This can be understood to be "rise over run" of the function.<div class="autopermalink" data-description="Paragraph"><a href="#def-slope-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="def-slope-2-2">The slope of a linear equation <span class="process-math">\(y = ax + b\)</span> is the value of the constant <span class="process-math">\(a\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#def-slope-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Definition 1.4.4: Slope"><a href="#def-slope" title="Copy heading and permalink for Definition 1.4.4: Slope">🔗</a></div></article><article class="definition definition-like" id="def-constant-roc"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.4.5</span><span class="period">.</span><span class="space"> </span><span class="title">Constant Rate of Change.</span>
+<div class="autopermalink" data-description="Definition 1.4.4: Slope"><a href="#def-slope" title="Copy heading and permalink for Definition 1.4.4: Slope" aria-label="Copy heading and permalink for Definition 1.4.4: Slope">🔗</a></div></article><article class="definition definition-like" id="def-constant-roc"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.4.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Constant Rate of Change.</span>
 </h3>
-<div class="para" id="def-constant-roc-2-1">The <dfn class="terminology">constant rate of change</dfn> of a linear function is the value of its slope.<div class="autopermalink" data-description="Paragraph"><a href="#def-constant-roc-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="def-constant-roc-2-2">The units of a rate of change are always <em class="alert">output per input</em><div class="autopermalink" data-description="Paragraph"><a href="#def-constant-roc-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="def-constant-roc-2-1">The <dfn class="terminology">constant rate of change</dfn> of a linear function is the value of its slope.<div class="autopermalink" data-description="Paragraph"><a href="#def-constant-roc-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="def-constant-roc-2-2">The units of a rate of change are always <em class="alert">output per input</em><div class="autopermalink" data-description="Paragraph"><a href="#def-constant-roc-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Definition 1.4.5: Constant Rate of Change"><a href="#def-constant-roc" title="Copy heading and permalink for Definition 1.4.5: Constant Rate of Change">🔗</a></div></article><article class="example example-like" id="sec1-342-2-linear-ex1"><h3 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.6</span><span class="period">.</span>
+<div class="autopermalink" data-description="Definition 1.4.5: Constant Rate of Change"><a href="#def-constant-roc" title="Copy heading and permalink for Definition 1.4.5: Constant Rate of Change" aria-label="Copy heading and permalink for Definition 1.4.5: Constant Rate of Change">🔗</a></div></article><article class="example example-like" id="sec1-342-2-linear-ex1"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.4.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h3>
 <div class="para logical" id="sec1-342-2-linear-ex1-1-1">
 <div class="para">Consider the equation <span class="process-math">\(2x + 5y = 8\text{.}\)</span> It is linear because we can isolate <span class="process-math">\(y\)</span> and write the equation in the form <span class="process-math">\(y = ax + b\text{;}\)</span> rewriting gives</div>
@@ -203,7 +202,7 @@ f(x) = ax + b
 y = -\dfrac{2}{5}x + \dfrac{8}{5}
 \end{gather*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-linear-ex1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-linear-ex1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> <div class="para logical" id="sec1-342-2-linear-ex1-1-2">
 <div class="para">If we want to find the <span class="process-math">\(x-\)</span>intercept, we can do so by setting <span class="process-math">\(y = f(x) = 0\text{.}\)</span> This gives:</div>
 <div class="displaymath process-math" id="sec1-342-2-linear-ex1-1-2-3">
@@ -215,7 +214,7 @@ x \amp = 4
 </div>
 <div class="para">So the <span class="process-math">\(x-\)</span>intercept occurs at <span class="process-math">\((4,0)\text{.}\)</span>
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-linear-ex1-1-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-linear-ex1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> <div class="para logical" id="sec1-342-2-linear-ex1-1-3">
 <div class="para">For the <span class="process-math">\(y-\)</span>intercept, we need to find <span class="process-math">\(f(0)\text{.}\)</span> This means we plug in 0 to the equation:</div>
 <div class="displaymath process-math" id="sec1-342-2-linear-ex1-1-3-3">
@@ -223,69 +222,115 @@ x \amp = 4
 f(0) = -\dfrac{2}{5}(0) + \dfrac{8}{5} = \dfrac{8}{5}
 \end{gather*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-linear-ex1-1-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="sec1-342-2-linear-ex1-1-4">Since the slope is the value of the constant <span class="process-math">\(a\)</span> when the equation is in the form <span class="process-math">\(y = ax + b\text{,}\)</span> and we know that <span class="process-math">\(y = -\dfrac{2}{5}x + \dfrac{8}{5}\text{,}\)</span> the slope is <span class="process-math">\(a = -\dfrac{2}{5}\text{.}\)</span> This tells us that when creating the line, to move from one point to another, we must go down two units and right five units.<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-linear-ex1-1-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-linear-ex1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="sec1-342-2-linear-ex1-1-4">Since the slope is the value of the constant <span class="process-math">\(a\)</span> when the equation is in the form <span class="process-math">\(y = ax + b\text{,}\)</span> and we know that <span class="process-math">\(y = -\dfrac{2}{5}x + \dfrac{8}{5}\text{,}\)</span> the slope is <span class="process-math">\(a = -\dfrac{2}{5}\text{.}\)</span> This tells us that when creating the line, to move from one point to another, we must go down two units and right five units.<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-linear-ex1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.4.6"><a href="#sec1-342-2-linear-ex1" title="Copy heading and permalink for Example 1.4.6">🔗</a></div></article><article class="example example-like" id="sec1-342-2-linear-ex2"><h3 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.7</span><span class="period">.</span>
+<div class="autopermalink" data-description="Example 1.4.6"><a href="#sec1-342-2-linear-ex1" title="Copy heading and permalink for Example 1.4.6" aria-label="Copy heading and permalink for Example 1.4.6">🔗</a></div></article><article class="example example-like" id="sec1-342-2-linear-ex2"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.4.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h3>
-<div class="para" id="sec1-342-2-linear-ex2-1-1">Assume that the function <span class="process-math">\(M(x) = 0.137x + 11.068\)</span> gives the number of animals (in thousands) in a federally protected marine zone, <span class="process-math">\(x\)</span> years since the zone was established.<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-linear-ex2-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="sec1-342-2-linear-ex2-1-2">This function is linear because it can be written in the form <span class="process-math">\(y = ax + b\text{;}\)</span> here, <span class="process-math">\(y = M(x)\text{,}\)</span> <span class="process-math">\(a = 0.137\text{,}\)</span> and <span class="process-math">\(b = 11.068\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-linear-ex2-1-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="sec1-342-2-linear-ex2-1-3">The <span class="process-math">\(x-\)</span>intercept is at <span class="process-math">\(x = -80.789\)</span> (rounding to three decimal places), and the <span class="process-math">\(y-\)</span>intercept is at <span class="process-math">\(y = 11.068\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-linear-ex2-1-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="sec1-342-2-linear-ex2-1-4">The slope is <span class="process-math">\(a = 0.137\text{,}\)</span> which tells us that the number of animals increases by 0.137 thousand animals per year.<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-linear-ex2-1-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec1-342-2-linear-ex2-1-1">Assume that the function <span class="process-math">\(M(x) = 0.137x + 11.068\)</span> gives the number of animals (in thousands) in a federally protected marine zone, <span class="process-math">\(x\)</span> years since the zone was established.<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-linear-ex2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="sec1-342-2-linear-ex2-1-2">This function is linear because it can be written in the form <span class="process-math">\(y = ax + b\text{;}\)</span> here, <span class="process-math">\(y = M(x)\text{,}\)</span> <span class="process-math">\(a = 0.137\text{,}\)</span> and <span class="process-math">\(b = 11.068\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-linear-ex2-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="sec1-342-2-linear-ex2-1-3">The <span class="process-math">\(x-\)</span>intercept is at <span class="process-math">\(x = -80.789\)</span> (rounding to three decimal places), and the <span class="process-math">\(y-\)</span>intercept is at <span class="process-math">\(y = 11.068\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-linear-ex2-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="sec1-342-2-linear-ex2-1-4">The slope is <span class="process-math">\(a = 0.137\text{,}\)</span> which tells us that the number of animals increases by 0.137 thousand animals per year.<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-linear-ex2-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.4.7"><a href="#sec1-342-2-linear-ex2" title="Copy heading and permalink for Example 1.4.7">🔗</a></div></article><details id="sec1-342-2-linear-cu1" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Check Your Understanding</span><span class="space"> </span><span class="codenumber">1.4.8</span><span class="period">.</span>
-</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec1-342-2-linear-cu1-1-1">An electric scooter company determines the cost of a ride by charging a base price of $1.50 plus a charge of $0.20 per minute used. Write an equation for the monthly charge <span class="process-math">\(C\)</span> (in dollars) as a function of <span class="process-math">\(m\text{,}\)</span> the number of minutes used.<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-linear-cu1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Example 1.4.7"><a href="#sec1-342-2-linear-ex2" title="Copy heading and permalink for Example 1.4.7" aria-label="Copy heading and permalink for Example 1.4.7">🔗</a></div></article><details id="sec1-342-2-linear-cu1" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Check Your Understanding</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.4.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec1-342-2-linear-cu1-1-1">An electric scooter company determines the cost of a ride by charging a base price of $1.50 plus a charge of $0.20 per minute used. Write an equation for the monthly charge <span class="process-math">\(C\)</span> (in dollars) as a function of <span class="process-math">\(m\text{,}\)</span> the number of minutes used.<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-linear-cu1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="solutions"><details id="sec1-342-2-linear-cu1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="solutions"><details id="sec1-342-2-linear-cu1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
 <div class="para" id="sec1-342-2-linear-cu1-2-1">
-<span class="process-math">\(C = 0.20m + 1.50\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-linear-cu1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<span class="process-math">\(C = 0.20m + 1.50\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-linear-cu1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Answer 1.4.8.1"><a href="#sec1-342-2-linear-cu1-2" title="Copy heading and permalink for Answer 1.4.8.1">🔗</a></div>
+<div class="autopermalink" data-description="Answer 1.4.8.1"><a href="#sec1-342-2-linear-cu1-2" title="Copy heading and permalink for Answer 1.4.8.1" aria-label="Copy heading and permalink for Answer 1.4.8.1">🔗</a></div>
 </div></details></div>
-<div class="autopermalink" data-description="Check Your Understanding 1.4.8"><a href="#sec1-342-2-linear-cu1" title="Copy heading and permalink for Check Your Understanding 1.4.8">🔗</a></div></article></details><div class="para logical" id="sec1-342-2-10">
+<div class="autopermalink" data-description="Check Your Understanding 1.4.8"><a href="#sec1-342-2-linear-cu1" title="Copy heading and permalink for Check Your Understanding 1.4.8" aria-label="Copy heading and permalink for Check Your Understanding 1.4.8">🔗</a></div></article></details><article class="definition definition-like" id="def-costrevprofit"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.4.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Cost, Revenue, and Profit.</span>
+</h3>
+<div class="para" id="def-costrevprofit-2-1">
+<dfn class="terminology">Total cost</dfn> of a product is composed of two parts: fixed and variable costs. <dfn class="terminology">Fixed costs</dfn> are those which remain constant regardless of the number of units produced. <dfn class="terminology">Variable costs</dfn> are those directly related to the number of units produced.<div class="autopermalink" data-description="Paragraph"><a href="#def-costrevprofit-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="def-costrevprofit-2-2">
+<dfn class="terminology">Revenue</dfn> is the total amount of money earned, generally found by multiplying the price per unit times the number of units.<div class="autopermalink" data-description="Paragraph"><a href="#def-costrevprofit-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="def-costrevprofit-2-3">
+<div class="para">
+<dfn class="terminology">Profit</dfn> is the amount of money earned after accounting for cost. Profit can be written as</div>
+<div class="displaymath process-math" id="def-costrevprofit-2-3-2">
+\begin{gather*}
+P(x) = R(x) - C(x) 
+\end{gather*}
+</div>
+<div class="para">where <span class="process-math">\(P(x)\)</span> is profit from the production of <span class="process-math">\(x\)</span> units, <span class="process-math">\(R(x)\)</span> is the revenue from the production of <span class="process-math">\(x\)</span> units, and <span class="process-math">\(C(x)\)</span> is the cost from the production of <span class="process-math">\(x\)</span> units.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#def-costrevprofit-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.4.9: Cost, Revenue, and Profit"><a href="#def-costrevprofit" title="Copy heading and permalink for Definition 1.4.9: Cost, Revenue, and Profit" aria-label="Copy heading and permalink for Definition 1.4.9: Cost, Revenue, and Profit">🔗</a></div></article><article class="example example-like" id="sec1-342-2-costrevprofit-ex1"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.4.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec1-342-2-costrevprofit-ex1-1-1">Suppose that a company manufactures 50-inch QLED TVs and sells them for $700. The costs incurred in the production and sale of the TVs are $100,000 plus $500 for each TV produced and sold.<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-costrevprofit-ex1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="sec1-342-2-costrevprofit-ex1-1-2">
+<div class="para">The total cost is the sum of variable and fixed costs. The production costs $100,000 independent of the number of units produced, so this is our fixed cost. The variable cost adds $500 for each TV produced; this means that</div>
+<div class="displaymath process-math" id="sec1-342-2-costrevprofit-ex1-1-2-1">
+\begin{gather*}
+C(x) = 100000 + 500x 
+\end{gather*}
+</div>
+<div class="para">where <span class="process-math">\(x\)</span> is the number of units produced.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-costrevprofit-ex1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="sec1-342-2-costrevprofit-ex1-1-3">
+<div class="para">The revenue is the amount of money made from the sale of <span class="process-math">\(x\)</span> TVs. Since each TV is sold for $700, the revenue is given by</div>
+<div class="displaymath process-math" id="sec1-342-2-costrevprofit-ex1-1-3-2">
+\begin{gather*}
+R(x) = 700x
+\end{gather*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-costrevprofit-ex1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="sec1-342-2-costrevprofit-ex1-1-4">
+<div class="para">This means that the profit is given by</div>
+<div class="displaymath process-math" id="sec1-342-2-costrevprofit-ex1-1-4-1">
+\begin{align*}
+P(x) \amp = R(x) - C(x)\\
+P(x) \amp = 700x - (500x + 100000) \\
+P(x) \amp = 200x - 100000 
+\end{align*}
+</div>
+<div class="para">So the profit function is given by <span class="process-math">\(P(x) = 200x - 100000\)</span> dollars when <span class="process-math">\(x\)</span> units are sold.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-costrevprofit-ex1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.4.10"><a href="#sec1-342-2-costrevprofit-ex1" title="Copy heading and permalink for Example 1.4.10" aria-label="Copy heading and permalink for Example 1.4.10">🔗</a></div></article><details id="sec1-342-2-costrevprofit-cu1" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Check Your Understanding</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.4.11</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec1-342-2-costrevprofit-cu1-1-1">A company charting its profits notices that the relationship between the number of units sold <span class="process-math">\(t\)</span> and profit <span class="process-math">\(P\)</span> is linear. If 300 units sold results in $4650 profit and 375 units sold results in $9000 profit, find a formula for the profit.<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-costrevprofit-cu1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec1-342-2-costrevprofit-cu1-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="sec1-342-2-costrevprofit-cu1-2-1">
+<span class="process-math">\(P(x) = 58x \)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-costrevprofit-cu1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 1.4.11.1"><a href="#sec1-342-2-costrevprofit-cu1-2" title="Copy heading and permalink for Answer 1.4.11.1" aria-label="Copy heading and permalink for Answer 1.4.11.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Check Your Understanding 1.4.11"><a href="#sec1-342-2-costrevprofit-cu1" title="Copy heading and permalink for Check Your Understanding 1.4.11" aria-label="Copy heading and permalink for Check Your Understanding 1.4.11">🔗</a></div></article></details><div class="para logical" id="sec1-342-2-13">
 <div class="para">Things to discuss:</div>
-<ul class="disc" id="sec1-342-2-10-1">
-<li id="sec1-342-2-10-1-1">
-<div class="para" id="sec1-342-2-10-1-1-1">constant functions<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-10-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<ul class="disc" id="sec1-342-2-13-1">
+<li id="sec1-342-2-13-1-1">
+<div class="para" id="sec1-342-2-13-1-1-1">slope-intercept form<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-13-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#sec1-342-2-10-1-1" title="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#sec1-342-2-13-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="sec1-342-2-10-1-2">
-<div class="para" id="sec1-342-2-10-1-2-1">slope-intercept form<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-10-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="sec1-342-2-13-1-2">
+<div class="para" id="sec1-342-2-13-1-2-1">point-slope form<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-13-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#sec1-342-2-10-1-2" title="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#sec1-342-2-13-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="sec1-342-2-10-1-3">
-<div class="para" id="sec1-342-2-10-1-3-1">point-slope form<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-10-1-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="sec1-342-2-13-1-3">
+<div class="para" id="sec1-342-2-13-1-3-1">average rate of change<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-13-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#sec1-342-2-10-1-3" title="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#sec1-342-2-13-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="sec1-342-2-10-1-4">
-<div class="para" id="sec1-342-2-10-1-4-1">equation of vertical/horizontal lines<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-10-1-4-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="sec1-342-2-13-1-4">
+<div class="para" id="sec1-342-2-13-1-4-1">computing linear regressions<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-13-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#sec1-342-2-10-1-4" title="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="sec1-342-2-10-1-5">
-<div class="para" id="sec1-342-2-10-1-5-1">profit, revenue, cost<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-10-1-5-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#sec1-342-2-10-1-5" title="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="sec1-342-2-10-1-6">
-<div class="para" id="sec1-342-2-10-1-6-1">average rate of change<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-10-1-6-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#sec1-342-2-10-1-6" title="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="sec1-342-2-10-1-7">
-<div class="para" id="sec1-342-2-10-1-7-1">computing linear regressions<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-10-1-7-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#sec1-342-2-10-1-7" title="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#sec1-342-2-13-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-10" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec1-342-2-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Section 1.4: Section 1.3/1.4/2.2"><a href="#sec1-342-2" title="Copy heading and permalink for Section 1.4: Section 1.3/1.4/2.2">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Section 1.4: Section 1.3/1.4/2.2"><a href="#sec1-342-2" title="Copy heading and permalink for Section 1.4: Section 1.3/1.4/2.2" aria-label="Copy heading and permalink for Section 1.4: Section 1.3/1.4/2.2">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec2-1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
