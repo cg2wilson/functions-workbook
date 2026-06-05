@@ -304,7 +304,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "Section 1.3\/1.4\/2.2",
-  "body": " Section 1.3\/1.4\/2.2   Linear Function   A linear function is a function which can be written in the form where and are constants.     Intercepts   An intercept is the location where a function crosses an axis.  An intercept is an input where the function crosses the axis, and a intercept is an output where the function crosses the axis.     Because intercepts occur when a function crosses the axis, this means that all outputs are zero. In particular, this means that all intercepts are solutions to the equation .  Similarly, the intercept occurs at because the input is 0 along the axis. A function can only have one  intercept by definition of a function (see ).    Slope   The slope of a linear function is defined as the ratio of vertical change to horizontal change. This can be understood to be \"rise over run\" of the function.  The slope of a linear equation is the value of the constant .     Constant Rate of Change   The constant rate of change of a linear function is the value of its slope.  The units of a rate of change are always output per input       Consider the equation . It is linear because we can isolate and write the equation in the form ; rewriting gives   If we want to find the intercept, we can do so by setting . This gives: So the intercept occurs at .  For the intercept, we need to find . This means we plug in 0 to the equation:   Since the slope is the value of the constant when the equation is in the form , and we know that , the slope is . This tells us that when creating the line, to move from one point to another, we must go down two units and right five units.      Assume that the function gives the number of animals (in thousands) in a federally protected marine zone, years since the zone was established.  This function is linear because it can be written in the form ; here, , , and .  The intercept is at (rounding to three decimal places), and the intercept is at .  The slope is , which tells us that the number of animals increases by 0.137 thousand animals per year.      An electric scooter company determines the cost of a ride by charging a base price of $1.50 plus a charge of $0.20 per minute used. Write an equation for the monthly charge (in dollars) as a function of , the number of minutes used.          Cost, Revenue, and Profit    Total cost of a product is composed of two parts: fixed and variable costs. Fixed costs are those which remain constant regardless of the number of units produced. Variable costs are those directly related to the number of units produced.   Revenue is the total amount of money earned, generally found by multiplying the price per unit times the number of units.   Profit is the amount of money earned after accounting for cost. Profit can be written as where is profit from the production of units, is the revenue from the production of units, and is the cost from the production of units.      Suppose that a company manufactures 50-inch QLED TVs and sells them for $700. The costs incurred in the production and sale of the TVs are $100,000 plus $500 for each TV produced and sold.  The total cost is the sum of variable and fixed costs. The production costs $100,000 independent of the number of units produced, so this is our fixed cost. The variable cost adds $500 for each TV produced; this means that where is the number of units produced.  The revenue is the amount of money made from the sale of TVs. Since each TV is sold for $700, the revenue is given by   This means that the profit is given by So the profit function is given by dollars when units are sold.      A company charting its profits notices that the relationship between the number of units sold and profit is linear. If 300 units sold results in $4650 profit and 375 units sold results in $9000 profit, find a formula for the profit.         Things to discuss:   slope-intercept form    point-slope form    average rate of change    computing linear regressions     "
+  "body": " Section 1.3\/1.4\/2.2   Linear Function   A linear function is a function which can be written in the form where and are constants.     Intercepts   An intercept is the location where a function crosses an axis.  An intercept is an input where the function crosses the axis, and a intercept is an output where the function crosses the axis.     Because intercepts occur when a function crosses the axis, this means that all outputs are zero. In particular, this means that all intercepts are solutions to the equation .  Similarly, the intercept occurs at because the input is 0 along the axis. A function can only have one  intercept by definition of a function (see ).    Slope   The slope of a linear function is defined as the ratio of vertical change to horizontal change. This can be understood to be \"rise over run\" of the function.  The slope of a linear equation is the value of the constant .  Given two points and , the slope of the line between the two points is given by      Constant Rate of Change   The constant rate of change of a linear function is the value of its slope.  The units of a rate of change are always output per input       Consider the equation . It is linear because we can isolate and write the equation in the form ; rewriting gives   If we want to find the intercept, we can do so by setting . This gives: So the intercept occurs at .  For the intercept, we need to find . This means we plug in 0 to the equation:   Since the slope is the value of the constant when the equation is in the form , and we know that , the slope is . This tells us that when creating the line, to move from one point to another, we must go down two units and right five units.      Assume that the function gives the number of animals (in thousands) in a federally protected marine zone, years since the zone was established.  This function is linear because it can be written in the form ; here, , , and .  The intercept is at (rounding to three decimal places), and the intercept is at .  The slope is , which tells us that the number of animals increases by 0.137 thousand animals per year.      An electric scooter company determines the cost of a ride by charging a base price of $1.50 plus a charge of $0.20 per minute used. Write an equation for the monthly charge (in dollars) as a function of , the number of minutes used.          Cost, Revenue, and Profit    Total cost of a product is composed of two parts: fixed and variable costs. Fixed costs are those which remain constant regardless of the number of units produced. Variable costs are those directly related to the number of units produced.   Revenue is the total amount of money earned, generally found by multiplying the price per unit times the number of units.   Profit is the amount of money earned after accounting for cost. Profit can be written as where is profit from the production of units, is the revenue from the production of units, and is the cost from the production of units.      Suppose that a company manufactures 50-inch QLED TVs and sells them for $700. The costs incurred in the production and sale of the TVs are $100,000 plus $500 for each TV produced and sold.  The total cost is the sum of variable and fixed costs. The production costs $100,000 independent of the number of units produced, so this is our fixed cost. The variable cost adds $500 for each TV produced; this means that where is the number of units produced.  The revenue is the amount of money made from the sale of TVs. Since each TV is sold for $700, the revenue is given by   This means that the profit is given by So the profit function is given by dollars when units are sold.      A company charting its profits notices that the relationship between the number of units sold and profit is linear. If 300 units sold results in $4650 profit and 375 units sold results in $9000 profit, find a formula for the profit.          Forms of Lines  The slope-intercept form of a line is written as where is the slope of the line and is the output value of the intercept. In particular, the intercept is located at the point .  The point-slope form a line is written as where the line passes through the point with slope .     A line passes through the points and . We will find the slope-intercept and point-slope forms of the lines.  To find the slope-intercept form, we first need to find the slope. Recall from that we can use the two points to find the slope: Now that we have the slope, we can find the intercept by using the slope-intercept form of the line: At this point, we need to input one of the points into and . We can choose either one; let's pick the first one because both numbers are positive. This means we have So, our slope-intercept form of the line is given by   Now that we have the slope, we can write the point-slope equation without too much trouble. Let's again pick the point to use:      We can recover the slope-intercept form of the line from the point-slope form. We found that the point-slope form of the line given in was given by Distributing the slope gives and moving the 2 to the other side gives which is precisely the slope-intercept form of the line we found earlier.     A line with slope passes through the point . Find the equation of the line in slope-intercept form and point-slope form.    In point-slope form, we have which means that the slope-intercept form is given by      Average Rate of Change   The average rate of change of a function is the constant rate at which a function should change in order to move from one point to another.     The average rate of change of a function is exactly the slope of the line between the two points in question.     The average rate of change of the function between and is given by We have two interpretations of this number.  The first interpretation is that the slope of the line between the points and is exactly . We can see this in the image below.   Graph of and the line between and   Graph of and the line between and      The second interpretation is to say that if we were to travel at a constant rate of change between and , we would have to travel outputs units per input unit.     Linear Regression   A regression is a function which approximates the behavior of real-life data.  A linear regression is a regression on data points which appear to be line-like. A linear regression is often called a line of best fit      There are many ways of computing linear regressions using technology (calculators, computer software). We will use Desmos to compute the regressions here.     The table shows the a company's expenditures for payroll (in thousand dollars) for selected years between 2000 and 2025.   Payroll Expenditures for a Company    Year  Expenditures    2002  1601    2004  1856    2006  2114    2008  2415    2010  2604    2012  2817    2014  3081    2016  3403    2018  3786    2020  4274    2022  4825    2024  5425     We can use Desmos to compute the regression by inputting the data into a table:   Working with a Table in Desmos    Be sure to click the magnifying glass icon in the lower-left side of the input cell and select Zoom Fit . This will automatically resize the window so that you see the data points.  After you've entered the data and zoomed appropriately, press the Add Regression icon in the upper-left and make sure that Linear Regression is selected.  In this case, we get thousand dollars in payroll expenses in year .  If we wanted to use the model to predict the payroll expenditures in the year 2028, we would input 2028 into the model to get 5632.403 thousand dollars.  Similarly, if we wanted to find out the year when payroll first exceeded 3000 thousand dollars, we would set and solve for to get 2011.882, or the year 2011.      The amount of electricity (in quadrillion kWh) sold by a power company years after 2000 is given in the table below.   Retail Sales (in quadrillion kWh)    Year  Sales    3  1.2    4  1.23    5  1.27    6  1.3    7  1.33    8  1.35     Do the following:   Write the linear regression for the data. Round any decimals to three decimal places.    Write an interpretation of the slope of the linear regression.    What does the reported model predict the retail sales to be in the year 2020?    In what year, according to the regression, would retail sales first top 2 quadrillion kWh?           quadrillion kWh sold, years since 2000.    The amount of electricity sold increased by 0.031 quadrillion kWh per year.    1.73 quadrillion kWh    28.71, or the year 2028.       "
 },
 {
   "id": "def-linear-function",
@@ -340,7 +340,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "1.4.4",
   "title": "Slope.",
-  "body": " Slope   The slope of a linear function is defined as the ratio of vertical change to horizontal change. This can be understood to be \"rise over run\" of the function.  The slope of a linear equation is the value of the constant .   "
+  "body": " Slope   The slope of a linear function is defined as the ratio of vertical change to horizontal change. This can be understood to be \"rise over run\" of the function.  The slope of a linear equation is the value of the constant .  Given two points and , the slope of the line between the two points is given by    "
 },
 {
   "id": "def-constant-roc",
@@ -404,6 +404,114 @@ var ptx_lunr_docs = [
   "number": "1.4.11",
   "title": "",
   "body": "  A company charting its profits notices that the relationship between the number of units sold and profit is linear. If 300 units sold results in $4650 profit and 375 units sold results in $9000 profit, find a formula for the profit.        "
+},
+{
+  "id": "forms-of-lines-2",
+  "level": "2",
+  "url": "sec1-342-2.html#forms-of-lines-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "slope-intercept "
+},
+{
+  "id": "forms-of-lines-3",
+  "level": "2",
+  "url": "sec1-342-2.html#forms-of-lines-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "point-slope "
+},
+{
+  "id": "sec1-342-2-lines-ex1",
+  "level": "2",
+  "url": "sec1-342-2.html#sec1-342-2-lines-ex1",
+  "type": "Example",
+  "number": "1.4.12",
+  "title": "",
+  "body": "  A line passes through the points and . We will find the slope-intercept and point-slope forms of the lines.  To find the slope-intercept form, we first need to find the slope. Recall from that we can use the two points to find the slope: Now that we have the slope, we can find the intercept by using the slope-intercept form of the line: At this point, we need to input one of the points into and . We can choose either one; let's pick the first one because both numbers are positive. This means we have So, our slope-intercept form of the line is given by   Now that we have the slope, we can write the point-slope equation without too much trouble. Let's again pick the point to use:    "
+},
+{
+  "id": "sec1-342-2-lines-ex1-note1",
+  "level": "2",
+  "url": "sec1-342-2.html#sec1-342-2-lines-ex1-note1",
+  "type": "Note",
+  "number": "1.4.13",
+  "title": "",
+  "body": " We can recover the slope-intercept form of the line from the point-slope form. We found that the point-slope form of the line given in was given by Distributing the slope gives and moving the 2 to the other side gives which is precisely the slope-intercept form of the line we found earlier.  "
+},
+{
+  "id": "sec1-342-2-lines-cu1",
+  "level": "2",
+  "url": "sec1-342-2.html#sec1-342-2-lines-cu1",
+  "type": "Check Your Understanding",
+  "number": "1.4.14",
+  "title": "",
+  "body": "  A line with slope passes through the point . Find the equation of the line in slope-intercept form and point-slope form.    In point-slope form, we have which means that the slope-intercept form is given by    "
+},
+{
+  "id": "def-average-roc",
+  "level": "2",
+  "url": "sec1-342-2.html#def-average-roc",
+  "type": "Definition",
+  "number": "1.4.15",
+  "title": "Average Rate of Change.",
+  "body": " Average Rate of Change   The average rate of change of a function is the constant rate at which a function should change in order to move from one point to another.   "
+},
+{
+  "id": "sec1-342-2-aroc-note1",
+  "level": "2",
+  "url": "sec1-342-2.html#sec1-342-2-aroc-note1",
+  "type": "Note",
+  "number": "1.4.16",
+  "title": "",
+  "body": " The average rate of change of a function is exactly the slope of the line between the two points in question.  "
+},
+{
+  "id": "sec1-342-2-aroc-ex1",
+  "level": "2",
+  "url": "sec1-342-2.html#sec1-342-2-aroc-ex1",
+  "type": "Example",
+  "number": "1.4.17",
+  "title": "",
+  "body": "  The average rate of change of the function between and is given by We have two interpretations of this number.  The first interpretation is that the slope of the line between the points and is exactly . We can see this in the image below.   Graph of and the line between and   Graph of and the line between and      The second interpretation is to say that if we were to travel at a constant rate of change between and , we would have to travel outputs units per input unit.   "
+},
+{
+  "id": "def-linear-regression",
+  "level": "2",
+  "url": "sec1-342-2.html#def-linear-regression",
+  "type": "Definition",
+  "number": "1.4.19",
+  "title": "Linear Regression.",
+  "body": " Linear Regression   A regression is a function which approximates the behavior of real-life data.  A linear regression is a regression on data points which appear to be line-like. A linear regression is often called a line of best fit    "
+},
+{
+  "id": "sec1-342-2-linreg-note1",
+  "level": "2",
+  "url": "sec1-342-2.html#sec1-342-2-linreg-note1",
+  "type": "Note",
+  "number": "1.4.20",
+  "title": "",
+  "body": " There are many ways of computing linear regressions using technology (calculators, computer software). We will use Desmos to compute the regressions here.  "
+},
+{
+  "id": "sec1-342-2-linreg-ex1",
+  "level": "2",
+  "url": "sec1-342-2.html#sec1-342-2-linreg-ex1",
+  "type": "Example",
+  "number": "1.4.21",
+  "title": "",
+  "body": "  The table shows the a company's expenditures for payroll (in thousand dollars) for selected years between 2000 and 2025.   Payroll Expenditures for a Company    Year  Expenditures    2002  1601    2004  1856    2006  2114    2008  2415    2010  2604    2012  2817    2014  3081    2016  3403    2018  3786    2020  4274    2022  4825    2024  5425     We can use Desmos to compute the regression by inputting the data into a table:   Working with a Table in Desmos    Be sure to click the magnifying glass icon in the lower-left side of the input cell and select Zoom Fit . This will automatically resize the window so that you see the data points.  After you've entered the data and zoomed appropriately, press the Add Regression icon in the upper-left and make sure that Linear Regression is selected.  In this case, we get thousand dollars in payroll expenses in year .  If we wanted to use the model to predict the payroll expenditures in the year 2028, we would input 2028 into the model to get 5632.403 thousand dollars.  Similarly, if we wanted to find out the year when payroll first exceeded 3000 thousand dollars, we would set and solve for to get 2011.882, or the year 2011.   "
+},
+{
+  "id": "sec1-342-2-linreg-cu1",
+  "level": "2",
+  "url": "sec1-342-2.html#sec1-342-2-linreg-cu1",
+  "type": "Check Your Understanding",
+  "number": "1.4.24",
+  "title": "",
+  "body": "  The amount of electricity (in quadrillion kWh) sold by a power company years after 2000 is given in the table below.   Retail Sales (in quadrillion kWh)    Year  Sales    3  1.2    4  1.23    5  1.27    6  1.3    7  1.33    8  1.35     Do the following:   Write the linear regression for the data. Round any decimals to three decimal places.    Write an interpretation of the slope of the linear regression.    What does the reported model predict the retail sales to be in the year 2020?    In what year, according to the regression, would retail sales first top 2 quadrillion kWh?           quadrillion kWh sold, years since 2000.    The amount of electricity sold increased by 0.031 quadrillion kWh per year.    1.73 quadrillion kWh    28.71, or the year 2028.      "
 },
 {
   "id": "backmatter-2",
