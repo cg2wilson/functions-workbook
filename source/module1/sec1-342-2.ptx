@@ -44,6 +44,13 @@
       <p>
         The slope of a linear equation <m>y = ax + b</m> is the value of the constant <m>a</m>.
       </p>
+      <p>
+        Given two points <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m>, the slope of the line between the two points is given by
+        <md>
+          <mrow> a = \dfrac{y_2-y_1}{x_2-x_1} </mrow>
+        </md>
+        
+      </p>
     </statement>
   </definition>
   <definition xml:id="def-constant-roc">
@@ -179,29 +186,354 @@
     </answer>
   </exercise>
 
-  <p>
-    Things to discuss:
-    <ul>
-      <li>
-        <p>
-          slope-intercept form
-        </p>
-      </li>
-      <li>
-        <p>
-          point-slope form
-        </p>
-      </li>
-      <li>
-        <p>
-          average rate of change
-        </p>
-      </li>
-      <li>
-        <p>
-          computing linear regressions
-        </p>
-      </li>
-    </ul>
-  </p>
+  <assemblage xml:id="forms-of-lines">
+    <title>Forms of Lines</title>
+    <p>
+      The <term>slope-intercept</term> form of a line is written as
+      <md>
+        <mrow> y = ax + b </mrow>
+      </md>
+      where <m>a</m> is the slope of the line and <m>b</m> is the output value of the <m>y-</m>intercept. In particular, the <m>y-</m>intercept is located at the point <m>(0,b)</m>.
+    </p>
+    <p>
+      The <term>point-slope</term> form a line is written as
+      <md>
+        <mrow> y - y_1 = a(x - x_1) </mrow>
+      </md>
+      where the line passes through the point <m>(x_1,y_1)</m> with slope <m>a</m>. 
+    </p>
+  </assemblage>
+
+  <example xml:id="sec1-342-2-lines-ex1">
+    <statement>
+      <p>
+        A line passes through the points <m>(7,2)</m> and <m>(-1, -4)</m>. We will find the slope-intercept and point-slope forms of the lines.
+      </p>
+      <p>
+        To find the slope-intercept form, we first need to find the slope. Recall from <xref ref="def-slope"/> that we can use the two points to find the slope:
+        <md>
+          <mrow> a \amp = \dfrac{y_2 - y_1}{x_2 - x_1} </mrow>
+          <mrow>   \amp = \dfrac{2 - (-4)}{7 - (-1)} </mrow>
+          <mrow>   \amp = \dfrac{6}{8} </mrow>
+          <mrow>   \amp = \dfrac{3}{4} </mrow>
+        </md>
+        Now that we have the slope, we can find the <m>y-</m>intercept by using the slope-intercept form of the line:
+        <md>
+          <mrow> y \amp = ax + b </mrow>
+          <mrow> y \amp = \dfrac{3}{4}x + b </mrow>
+        </md>
+        At this point, we need to input one of the points into <m>x</m> and <m>y</m>. We can choose either one; let's pick the first one because both numbers are positive. This means we have
+        <md>
+          <mrow> y \amp = \dfrac{3}{4}x + b </mrow>
+          <mrow> 2 \amp = \dfrac{3}{4}(7) + b</mrow>
+          <mrow> 2 \amp = \dfrac{21}{4} + b </mrow>
+          <mrow> \dfrac{8}{4} \amp = \dfrac{21}{4} + b </mrow>
+          <mrow> -\dfrac{13}{4} \amp = b  </mrow>
+        </md>
+        So, our slope-intercept form of the line is given by
+        <md>
+          <mrow> y = \dfrac{3}{4}x - \dfrac{13}{4}</mrow>
+        </md>
+      </p>
+      <p>
+        Now that we have the slope, we can write the point-slope equation without too much trouble. Let's again pick the point <m>(7,2)</m> to use:
+        <md>
+          <mrow> y - y_1 \amp = a(x-x_1)</mrow>
+          <mrow> y - 2 \amp =  \dfrac{3}{4} (x - 7)</mrow>
+        </md>
+      </p>
+    </statement>
+  </example>
+  <note xml:id="sec1-342-2-lines-ex1-note1">
+    <p>
+      We can recover the slope-intercept form of the line from the point-slope form. We found that the point-slope form of the line given in <xref ref="sec1-342-2-lines-ex1"/> was given by
+      <md>
+        <mrow> y - 2 \amp =  \dfrac{3}{4} (x - 7)</mrow>
+      </md>
+      Distributing the slope gives
+      <md>
+        <mrow> y - 2\amp = \dfrac{3}{4}x - \dfrac{21}{4} </mrow>
+      </md>
+      and moving the 2 to the other side gives
+      <md>
+        <mrow> y \amp = \dfrac{3}{4}x - \dfrac{13}{4} </mrow>
+      </md>
+      which is precisely the slope-intercept form of the line we found earlier.
+    </p>
+  </note>
+
+  <exercise xml:id="sec1-342-2-lines-cu1">
+    <statement>
+      <p>
+        A line with slope <m>-3</m> passes through the point <m>(1,3)</m>. Find the equation of the line in slope-intercept form and point-slope form.
+      </p>
+    </statement>
+    <answer>
+      <p>
+        In point-slope form, we have
+        <md>
+          <mrow>y - 3\amp = -3(x-1) </mrow>
+        </md>
+        which means that the slope-intercept form is given by
+        <md>
+          <mrow>y \amp = -3x + 6</mrow>
+        </md>
+      </p>
+    </answer>
+  </exercise>
+
+  <definition xml:id="def-average-roc">
+    <title>Average Rate of Change</title>
+    <statement>
+      <p>
+        The <term>average rate of change</term> of a function is the constant rate at which a function should change in order to move from one point to another.
+      </p>
+    </statement>
+  </definition>
+  <note xml:id="sec1-342-2-aroc-note1">
+    <p>
+      The average rate of change of a function is exactly the slope of the line between the two points in question.
+    </p>
+  </note>
+
+  <example xml:id="sec1-342-2-aroc-ex1">
+    <statement>
+      <p>
+        The average rate of change of the function <m>f(x) = 2x^2 + 3x - 1</m> between <m>(0,-1)</m> and <m>(2,13)</m> is given by
+        <md>
+          <mrow> a \amp = \dfrac{y_2 - y_1}{x_2 - x_1} </mrow>
+          <mrow>   \amp = \dfrac{13 - (-1)}{2-0} </mrow>
+          <mrow>   \amp = \dfrac{14}{2} </mrow>
+          <mrow>   \amp = 7 </mrow>
+        </md>
+        We have two interpretations of this number.
+      </p>
+      <p>
+        The first interpretation is that the slope of the line between the points <m>(0,-1)</m> and <m>(2,13)</m> is exactly <m>7</m>. We can see this in the image below.
+      </p>
+      <figure xml:id="sec1-342-2-aroc-fig1">
+        <caption>Graph of <m>f(x)</m> and the line between <m>(0,-1)</m> and <m>(2,13)</m></caption>
+        <image xml:id="sec1-342-2-aroc-fig1img1">
+          <description><p>
+            Graph of <m>f(x)</m> and the line between <m>(0,-1)</m> and <m>(2,13)</m>
+          </p></description>
+          <sageplot>
+            p1 = plot(2*x^2 + 3*x - 1, axes_labels = ['$x$','$f(x)$'], xmin = -1, xmax = 3)
+            p2 = plot(7*x - 1, xmin = -1, xmax = 3, color = 'red')
+            c1 = point((0,-1), size = 60, color = 'black')
+            c2 = point((2,13), size = 60, color = 'black')
+            p1 + p2 + c1 + c2
+          </sageplot>
+        </image>
+      </figure>
+      <p>
+        The second interpretation is to say that if we were to travel at a constant rate of change between <m>(0,-1)</m> and <m>(2,13)</m>, we would have to travel <m>7</m> outputs units per input unit.
+      </p>
+    </statement>
+  </example>
+
+  <definition xml:id="def-linear-regression">
+    <title>Linear Regression</title>
+    <statement>
+      <p>
+        A <term>regression</term> is a function which approximates the behavior of real-life data.
+      </p>
+      <p>
+        A <term>linear regression</term> is a regression on data points which appear to be line-like. A linear regression is often called a <term>line of best fit</term>
+      </p>
+    </statement>
+  </definition>
+
+  <note xml:id="sec1-342-2-linreg-note1">
+    <p>
+      There are many ways of computing linear regressions using technology (calculators, computer software). We will use Desmos to compute the regressions here. 
+    </p>
+  </note>
+
+  <example xml:id="sec1-342-2-linreg-ex1">
+    <statement>
+      <p>
+        The table shows the a company's expenditures for payroll (in thousand dollars) for selected years between 2000 and 2025.
+      </p>
+      <table>
+        <title>Payroll Expenditures for a Company</title>
+        <tabular>
+          <row>
+            <cell>Year</cell>
+            <cell>Expenditures</cell>
+          </row>
+          <row>
+            <cell>2002</cell>
+            <cell>1601</cell>
+          </row>
+          <row>
+            <cell>2004</cell>
+            <cell>1856</cell>
+          </row>
+          <row>
+            <cell>2006</cell>
+            <cell>2114</cell>
+          </row>
+          <row>
+            <cell>2008</cell>
+            <cell>2415</cell>
+          </row>
+          <row>
+            <cell>2010</cell>
+            <cell>2604</cell>
+          </row>
+          <row>
+            <cell>2012</cell>
+            <cell>2817</cell>
+          </row>
+          <row>
+            <cell>2014</cell>
+            <cell>3081</cell>
+          </row>
+          <row>
+            <cell>2016</cell>
+            <cell>3403</cell>
+          </row>
+          <row>
+            <cell>2018</cell>
+            <cell>3786</cell>
+          </row>
+          <row>
+            <cell>2020</cell>
+            <cell>4274</cell>
+          </row>
+          <row>
+            <cell>2022</cell>
+            <cell>4825</cell>
+          </row>
+          <row>
+            <cell>2024</cell>
+            <cell>5425</cell>
+          </row>
+        </tabular>
+      </table>
+      <p>
+        We can use Desmos to compute the regression by inputting the data into a table:
+      </p>
+      <figure xml:id="sec1-342-linreg-ex1fig1">
+        <caption>Working with a Table in Desmos</caption>
+        <interactive xml:id='sec1-342-linreg-ex1img1' desmos="fmiwkvcghs" width="60%" aspect = "2:3"/>
+      </figure>
+      <p>
+        Be sure to click the magnifying glass icon in the lower-left side of the input cell and select <c>Zoom Fit</c>. This will automatically resize the window so that you see the data points.
+      </p>
+      <p>
+        After you've entered the data and zoomed appropriately, press the <c>Add Regression</c> icon in the upper-left and make sure that <c>Linear Regression</c> is selected.
+      </p>
+      <p>
+        In this case, we get 
+        <md>
+          <mrow> y \amp = 163.323x - 325586.641 </mrow>
+        </md>
+        thousand dollars in payroll expenses in year <m>x</m>. 
+      </p>
+      <p>
+        If we wanted to use the model to predict the payroll expenditures in the year 2028, we would input 2028 into the model to get 5632.403 thousand dollars.
+      </p>
+      <p>
+        Similarly, if we wanted to find out the year when payroll first exceeded 3000 thousand dollars, we would set
+        <md>
+          <mrow>3000 \amp = 163.323x - 325586.641 </mrow>
+        </md>
+        and solve for <m>x</m> to get 2011.882, or the year 2011.
+      </p>
+    </statement>
+  </example>
+
+  <exercise xml:id="sec1-342-2-linreg-cu1">
+    <statement>
+      <p>
+        The amount of electricity (in quadrillion kWh) sold by a power company <m>x</m> years after 2000 is given in the table below.
+      </p>
+      <table>
+        <title>Retail Sales (in quadrillion kWh)</title>
+        <tabular>
+          <row>
+            <cell>Year</cell>
+            <cell>Sales</cell>
+          </row>
+          <row>
+            <cell>3</cell>
+            <cell>1.2</cell>
+          </row>
+          <row>
+            <cell>4</cell>
+            <cell>1.23</cell>
+          </row>
+          <row>
+            <cell>5</cell>
+            <cell>1.27</cell>
+          </row>
+          <row>
+            <cell>6</cell>
+            <cell>1.3</cell>
+          </row>
+          <row>
+            <cell>7</cell>
+            <cell>1.33</cell>
+          </row>
+          <row>
+            <cell>8</cell>
+            <cell>1.35</cell>
+          </row>
+        </tabular>
+      </table>
+      <p>
+        Do the following:
+        <ol marker="a.">
+          <li>
+            <p>
+              Write the linear regression for the data. Round any decimals to three decimal places.
+            </p>
+          </li>
+          <li>
+            <p>
+              Write an interpretation of the slope of the linear regression.
+            </p>
+          </li>
+          <li>
+            <p>
+              What does the reported model predict the retail sales to be in the year 2020?
+            </p>
+          </li>
+          <li>
+            <p>
+              In what year, according to the regression, would retail sales first top 2 quadrillion kWh?
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <ol marker="a.">
+          <li>
+            <p>
+              <m>y = 0.031x + 1.110</m> quadrillion kWh sold, <m>x</m> years since 2000.
+            </p>
+          </li>
+          <li>
+            <p>
+              The amount of electricity sold increased by 0.031 quadrillion kWh per year.
+            </p>
+          </li>
+          <li>
+            <p>
+              1.73 quadrillion kWh
+            </p>
+          </li>
+          <li>
+            <p>
+              28.71, or the year 2028.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </answer>
+  </exercise>
 </section>
