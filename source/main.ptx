@@ -13,7 +13,8 @@
     <!-- Include chapters -->
     <xi:include href="./module1/main.ptx" />
 
-
+    <xi:include href="./module2/main.ptx" />
+    
     <!-- Include backmatter -->
     <xi:include href="./meta/backmatter.ptx" />
 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <chapter xml:id="mod2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Module 2</title>
+
+    <xi:include href="./sec3-12.ptx" />
+    <xi:include href="./sec3-5.ptx" />
+    <xi:include href="./sec4-2.ptx" />
+    <xi:include href="./sec4-3.ptx" />
+  </chapter>

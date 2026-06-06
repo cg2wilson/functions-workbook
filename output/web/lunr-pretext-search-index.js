@@ -514,6 +514,123 @@ var ptx_lunr_docs = [
   "body": "  The amount of electricity (in quadrillion kWh) sold by a power company years after 2000 is given in the table below.   Retail Sales (in quadrillion kWh)    Year  Sales    3  1.2    4  1.23    5  1.27    6  1.3    7  1.33    8  1.35     Do the following:   Write the linear regression for the data. Round any decimals to three decimal places.    Write an interpretation of the slope of the linear regression.    What does the reported model predict the retail sales to be in the year 2020?    In what year, according to the regression, would retail sales first top 2 quadrillion kWh?           quadrillion kWh sold, years since 2000.    The amount of electricity sold increased by 0.031 quadrillion kWh per year.    1.73 quadrillion kWh    28.71, or the year 2028.      "
 },
 {
+  "id": "sec3-12",
+  "level": "1",
+  "url": "sec3-12.html",
+  "type": "Section",
+  "number": "2.1",
+  "title": "Section 3.1\/3.2",
+  "body": " Section 3.1\/3.2   Quadratic Function   A quadratic function is one which can be written in the form where , but or could be .  The shape of a quadratic function is called a parabola , shown in the figure below.     Graph of a quadratic function   The graph of a quadratic function.      Vertex   The vertex of a parabola is the point where the graph turns from down to up or from up to down.     Properties of Quadratic Functions  Recall that a quadratic function takes the form      If , the parabola opens upward, and the vertex is the absolute minimum of the function.    If , the parabola opens downward, and the vertex is the absolute maximum of the function.    The vertex is located at the point     Quadratics can have two, one, or zero real roots         Recall from that revenue can be found by multiplying the price per unit times the number of units.  If the price of a commodity is given by dollars per unit, then the revenue is found by multiplying   The vertex can be found by using the formula from : So the input of the vertex is at . The output is at , so it is at , which we can compute to be . So, the vertex is at ; we can interpret this to say that when units are sold, the revenue is dollars      The percentage of foreign-born people in the United States was determined to be modeled by the equation percent, where is the number of years after 1910.     Determine the year, according to the model, that the number of foreign-born persons was at a minimum. If necessary, round to the nearest whole number.    What is the minimum percentage?          60 years after 1910, or 1970.             Quadratic Equation   A quadratic equation is an equation which can be written as where      Quadratic Formula   For a quadratic equation of the form , the solution(s) to the equation are given by and       For the quadratic equation , we can find its real roots by first making it look like the equation . Rewriting, we have Now, , , and . Plugging this into the quadratic formula, we get and       Find the real root(s) of the equation     The only real root is at     "
+},
+{
+  "id": "def-quadratic",
+  "level": "2",
+  "url": "sec3-12.html#def-quadratic",
+  "type": "Definition",
+  "number": "2.1.1",
+  "title": "Quadratic Function.",
+  "body": " Quadratic Function   A quadratic function is one which can be written in the form where , but or could be .  The shape of a quadratic function is called a parabola , shown in the figure below.   "
+},
+{
+  "id": "sec3-12-quadratic-fig1",
+  "level": "2",
+  "url": "sec3-12.html#sec3-12-quadratic-fig1",
+  "type": "Figure",
+  "number": "2.1.2",
+  "title": "",
+  "body": " Graph of a quadratic function   The graph of a quadratic function.    "
+},
+{
+  "id": "def-vertex",
+  "level": "2",
+  "url": "sec3-12.html#def-vertex",
+  "type": "Definition",
+  "number": "2.1.3",
+  "title": "Vertex.",
+  "body": " Vertex   The vertex of a parabola is the point where the graph turns from down to up or from up to down.   "
+},
+{
+  "id": "sec3-12-quadratic-ex1",
+  "level": "2",
+  "url": "sec3-12.html#sec3-12-quadratic-ex1",
+  "type": "Example",
+  "number": "2.1.4",
+  "title": "",
+  "body": "  Recall from that revenue can be found by multiplying the price per unit times the number of units.  If the price of a commodity is given by dollars per unit, then the revenue is found by multiplying   The vertex can be found by using the formula from : So the input of the vertex is at . The output is at , so it is at , which we can compute to be . So, the vertex is at ; we can interpret this to say that when units are sold, the revenue is dollars   "
+},
+{
+  "id": "sec3-12-quadratic-cu1",
+  "level": "2",
+  "url": "sec3-12.html#sec3-12-quadratic-cu1",
+  "type": "Check Your Understanding",
+  "number": "2.1.5",
+  "title": "",
+  "body": "  The percentage of foreign-born people in the United States was determined to be modeled by the equation percent, where is the number of years after 1910.     Determine the year, according to the model, that the number of foreign-born persons was at a minimum. If necessary, round to the nearest whole number.    What is the minimum percentage?          60 years after 1910, or 1970.           "
+},
+{
+  "id": "def-quadratic-equation",
+  "level": "2",
+  "url": "sec3-12.html#def-quadratic-equation",
+  "type": "Definition",
+  "number": "2.1.6",
+  "title": "Quadratic Equation.",
+  "body": " Quadratic Equation   A quadratic equation is an equation which can be written as where    "
+},
+{
+  "id": "def-quadratic-formula",
+  "level": "2",
+  "url": "sec3-12.html#def-quadratic-formula",
+  "type": "Definition",
+  "number": "2.1.7",
+  "title": "Quadratic Formula.",
+  "body": " Quadratic Formula   For a quadratic equation of the form , the solution(s) to the equation are given by and    "
+},
+{
+  "id": "sec3-12-quadraticformula-ex1",
+  "level": "2",
+  "url": "sec3-12.html#sec3-12-quadraticformula-ex1",
+  "type": "Example",
+  "number": "2.1.8",
+  "title": "",
+  "body": "  For the quadratic equation , we can find its real roots by first making it look like the equation . Rewriting, we have Now, , , and . Plugging this into the quadratic formula, we get and    "
+},
+{
+  "id": "sec3-12-quadraticformula-cu1",
+  "level": "2",
+  "url": "sec3-12.html#sec3-12-quadraticformula-cu1",
+  "type": "Check Your Understanding",
+  "number": "2.1.9",
+  "title": "",
+  "body": "  Find the real root(s) of the equation     The only real root is at    "
+},
+{
+  "id": "sec3-5",
+  "level": "1",
+  "url": "sec3-5.html",
+  "type": "Section",
+  "number": "2.2",
+  "title": "Section 3.5",
+  "body": " Section 3.5  "
+},
+{
+  "id": "sec4-2",
+  "level": "1",
+  "url": "sec4-2.html",
+  "type": "Section",
+  "number": "2.3",
+  "title": "Section 4.2",
+  "body": " Section 4.2  "
+},
+{
+  "id": "sec4-3",
+  "level": "1",
+  "url": "sec4-3.html",
+  "type": "Section",
+  "number": "2.4",
+  "title": "Section 4.3",
+  "body": " Section 4.3  "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
