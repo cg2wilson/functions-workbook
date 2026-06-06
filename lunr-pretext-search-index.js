@@ -610,7 +610,43 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Section 3.5",
-  "body": " Section 3.5  "
+  "body": " Section 3.5   Quadratic Regression   A quadratic regression is a regression which fits real-life data to a quadratic function.     Finding a quadratic regression is like finding a linear regression, except that you select Quadratic Regression in Desmos instead of Linear Regression .     Expenditure on large-language model (LLM) research and development by a company (in million dollars) is given in the table below, years after 2015   LLM Expenditure by Year    Year  Expenditure (in million $)    1  0.212    2  0.434    3  0.796    4  1.376    5  2.288    6  3.665    7  5.633    8  8.237    9  11.395    10  14.896     Using Desmos to create the scatterplot and regression we have   Scatterplot and Regression for the Data in    So, rounded to three decimal places, our regression is given by million dollars, years after 2015.      The table below shows the national expenditures for health care, in billions of dollars, for selected years from 2002 to 2024.   Health Care Expenditures (in billion $)    Year  Amount    2002  1602    2004  1855    2006  2113    2008  2414    2010  2604    2012  2817    2014  3080    2016  3403    2018  3786    2020  4274    2022  4825    2024  5425     Use the table to answer the following:   Align the data so that the years represent \"years since 2000\".    Compute the quadratic regression; round to three decimal places, if necessary.    In what year will health care expenditure surpass 7000 billion dollars? Round to the nearest whole number if necessary.    What does the model say the expenditure was in 2019?          Repeat , but replace 2002 with 2, 2004 with 4, etc.     billion dollars spent on health care, years after 2000.    30 years after 2000, or in 2030.    4109.63 billion dollars       "
+},
+{
+  "id": "def-quadratic-regression",
+  "level": "2",
+  "url": "sec3-5.html#def-quadratic-regression",
+  "type": "Definition",
+  "number": "2.2.1",
+  "title": "Quadratic Regression.",
+  "body": " Quadratic Regression   A quadratic regression is a regression which fits real-life data to a quadratic function.   "
+},
+{
+  "id": "sec3-5-quadratic-regression-note1",
+  "level": "2",
+  "url": "sec3-5.html#sec3-5-quadratic-regression-note1",
+  "type": "Note",
+  "number": "2.2.2",
+  "title": "",
+  "body": " Finding a quadratic regression is like finding a linear regression, except that you select Quadratic Regression in Desmos instead of Linear Regression .  "
+},
+{
+  "id": "sec3-5-quadratic-regression-ex1",
+  "level": "2",
+  "url": "sec3-5.html#sec3-5-quadratic-regression-ex1",
+  "type": "Example",
+  "number": "2.2.3",
+  "title": "",
+  "body": "  Expenditure on large-language model (LLM) research and development by a company (in million dollars) is given in the table below, years after 2015   LLM Expenditure by Year    Year  Expenditure (in million $)    1  0.212    2  0.434    3  0.796    4  1.376    5  2.288    6  3.665    7  5.633    8  8.237    9  11.395    10  14.896     Using Desmos to create the scatterplot and regression we have   Scatterplot and Regression for the Data in    So, rounded to three decimal places, our regression is given by million dollars, years after 2015.   "
+},
+{
+  "id": "sec3-5-quadratic-regression-cu1",
+  "level": "2",
+  "url": "sec3-5.html#sec3-5-quadratic-regression-cu1",
+  "type": "Check Your Understanding",
+  "number": "2.2.6",
+  "title": "",
+  "body": "  The table below shows the national expenditures for health care, in billions of dollars, for selected years from 2002 to 2024.   Health Care Expenditures (in billion $)    Year  Amount    2002  1602    2004  1855    2006  2113    2008  2414    2010  2604    2012  2817    2014  3080    2016  3403    2018  3786    2020  4274    2022  4825    2024  5425     Use the table to answer the following:   Align the data so that the years represent \"years since 2000\".    Compute the quadratic regression; round to three decimal places, if necessary.    In what year will health care expenditure surpass 7000 billion dollars? Round to the nearest whole number if necessary.    What does the model say the expenditure was in 2019?          Repeat , but replace 2002 with 2, 2004 with 4, etc.     billion dollars spent on health care, years after 2000.    30 years after 2000, or in 2030.    4109.63 billion dollars      "
 },
 {
   "id": "sec4-2",
