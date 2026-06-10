@@ -655,7 +655,70 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Section 4.2",
-  "body": " Section 4.2  "
+  "body": " Section 4.2   Function Operations  There are four basic operations which can be performed with functions. Let and be two functions. Then, we define the following operations with the following notation:   Sum:     Difference:     Product:     Quotient: , for         If and , then                        If we instead wanted , we would get So the order in division matters!      Given and , find , and .                                    Average Cost\/Revenue\/Profit   The average cost of a product, denoted , is given by the formula . It computes the cost per unit when units are produced.  The average revenue of a product, denoted , is given by the formula . It computes the revenue per unit when units are produced.  The average profit of a product, denoted , is given by the formula . It computes the profit per unit when units are produced.      A manufacturer has monthly fixed costs of $ and variable costs of $ per item. It sells each item for $ per item.  We can identify the cost, revenue, and profit functions: The average cost, average revenue, and average profit are given by These functions can then be used to find specific information; for example, if we want to know the profit when 100 units are sold, we can do so the company loses 1000 dollars when only 100 units are sold. The average profit when 100 units are sold is given by so the company loses, on average, 10 dollars per unit when 100 units are sold.     Function Composition   Given two functions and whose domains are compatible, the composition of and is given by This is read \" of of \"; the entire function is treated as the input of .      If and , then Similarly, This shows that when you switch order of composition, the answers can be very different!      If and , find , , and evaluate and      and . This means that and     "
+},
+{
+  "id": "sec4-2-functionoperations-ex1",
+  "level": "2",
+  "url": "sec4-2.html#sec4-2-functionoperations-ex1",
+  "type": "Example",
+  "number": "2.3.1",
+  "title": "",
+  "body": "  If and , then                        If we instead wanted , we would get So the order in division matters!   "
+},
+{
+  "id": "sec4-2-functionoperations-cu1",
+  "level": "2",
+  "url": "sec4-2.html#sec4-2-functionoperations-cu1",
+  "type": "Check Your Understanding",
+  "number": "2.3.2",
+  "title": "",
+  "body": "  Given and , find , and .                                  "
+},
+{
+  "id": "def-averagecostrevenueprofit",
+  "level": "2",
+  "url": "sec4-2.html#def-averagecostrevenueprofit",
+  "type": "Definition",
+  "number": "2.3.3",
+  "title": "Average Cost\/Revenue\/Profit.",
+  "body": " Average Cost\/Revenue\/Profit   The average cost of a product, denoted , is given by the formula . It computes the cost per unit when units are produced.  The average revenue of a product, denoted , is given by the formula . It computes the revenue per unit when units are produced.  The average profit of a product, denoted , is given by the formula . It computes the profit per unit when units are produced.   "
+},
+{
+  "id": "sec4-2-averagecostrevenueprofit-ex1",
+  "level": "2",
+  "url": "sec4-2.html#sec4-2-averagecostrevenueprofit-ex1",
+  "type": "Example",
+  "number": "2.3.4",
+  "title": "",
+  "body": "  A manufacturer has monthly fixed costs of $ and variable costs of $ per item. It sells each item for $ per item.  We can identify the cost, revenue, and profit functions: The average cost, average revenue, and average profit are given by These functions can then be used to find specific information; for example, if we want to know the profit when 100 units are sold, we can do so the company loses 1000 dollars when only 100 units are sold. The average profit when 100 units are sold is given by so the company loses, on average, 10 dollars per unit when 100 units are sold.   "
+},
+{
+  "id": "def-functioncomposition",
+  "level": "2",
+  "url": "sec4-2.html#def-functioncomposition",
+  "type": "Definition",
+  "number": "2.3.5",
+  "title": "Function Composition.",
+  "body": " Function Composition   Given two functions and whose domains are compatible, the composition of and is given by This is read \" of of \"; the entire function is treated as the input of .   "
+},
+{
+  "id": "sec4-2-functioncomposition-ex1",
+  "level": "2",
+  "url": "sec4-2.html#sec4-2-functioncomposition-ex1",
+  "type": "Example",
+  "number": "2.3.6",
+  "title": "",
+  "body": "  If and , then Similarly, This shows that when you switch order of composition, the answers can be very different!   "
+},
+{
+  "id": "sec4-2-functioncomposition-cu1",
+  "level": "2",
+  "url": "sec4-2.html#sec4-2-functioncomposition-cu1",
+  "type": "Check Your Understanding",
+  "number": "2.3.7",
+  "title": "",
+  "body": "  If and , find , , and evaluate and      and . This means that and    "
 },
 {
   "id": "sec4-3",
