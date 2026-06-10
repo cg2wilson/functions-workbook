@@ -2,5 +2,202 @@
 
 <section xml:id="sec4-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Section 4.2</title>
+  
+  <assemblage xml:id="sec4-2-functionoperations">
+    <title>Function Operations</title>
+    <p>
+      There are four basic operations which can be performed with functions. Let <m>f(x)</m> and <m>g(x)</m> be two functions. Then, we define the following operations with the following notation:
+      <ul>
+        <li>
+          <p>
+            Sum: <m>f(x) + g(x) = (f+g)(x)</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            Difference: <m>f(x) - g(x) = (f-g)(x)</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            Product: <m>f(x)\cdot g(x) = (f\cdot g)(x)</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            Quotient: <m>f(x) \div g(x) = \lrpar{\dfrac{f}{g}}(x)</m>, for <m>g(x)\neq 0</m>
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
 
+  <example xml:id="sec4-2-functionoperations-ex1">
+    <statement>
+      <p>
+        If <m>f(x) = x^3</m> and <m>g(x) = x-1</m>, then
+        <ul>
+          <li>
+            <p>
+              <m>(f+g)(x) = f(x) + g(x) = x^3 + (x-1) = x^3 + x- 1</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>(f-g)(x) = f(x) - g(x) = x^3 - (x-1) = x^3 - x + 1</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>(f\cdot g)(x) = f(x)\cdot g(x) = (x^3)(x-1) = x^4 - x^3</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\lrpar{\dfrac{f}{g}}(x) = \dfrac{f(x)}{g(x)} = \dfrac{x^3}{x-1}</m>
+            </p>
+          </li>
+        </ul>
+      </p>
+      <p>
+        If we instead wanted <m>\lrpar{\dfrac{g}{f}}(x)</m>, we would get
+        <md>
+          <mrow> \lrpar{\dfrac{g}{f}}(x) = \dfrac{x-1}{x^3} = \dfrac{x}{x^3} - \dfrac{1}{x^3} = x^{-2} - x^{-3}</mrow>
+        </md>
+        So the order in division matters!
+      </p>
+    </statement>
+  </example>
+  <exercise xml:id="sec4-2-functionoperations-cu1">
+    <statement>
+      <p>
+        Given <m>f(x) = \dfrac{x-2}{3}</m> and <m>g(x) = \dfrac{1}{x}</m>, find <m>(f+g)(x), (f-g)(x), (f\cdot g)(x), \lrpar{\dfrac{f}{g}}(x)</m>, and <m>\lrpar{\dfrac{g}{f}}(x)</m>.
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <ul>
+          <li>
+            <p>
+              <m>(f+g)(x) = \dfrac{x-2}{3} + \dfrac{1}{x} = \dfrac{x^2 -2x + 3}{3x}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>(f-g)(x) = \dfrac{x-2}{3} - \dfrac{1}{x} = \dfrac{x^2-2x -3}{3x}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>(f\cdot g)(x) = \lrpar{\dfrac{x-2}{3}}\lrpar{\dfrac{1}{x}} = \dfrac{x-2}{3x}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\lrpar{\dfrac{f}{g}}(x) = \dfrac{\frac{x-2}{3}}{\frac{1}{x}} = \dfrac{x^2-2x}{3}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\lrpar{\dfrac{g}{f}}(x) = \dfrac{\frac{1}{x}}{\frac{x-2}{3}} = \dfrac{3}{x^2-2x}</m>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </answer>
+  </exercise>
+
+  <definition xml:id="def-averagecostrevenueprofit">
+    <title>Average Cost/Revenue/Profit</title>
+    <statement>
+      <p>
+        The <term>average cost</term> of a product, denoted <m>\bar{C}(x)</m>, is given by the formula <m>\dfrac{C(x)}{x}</m>. It computes the cost per unit when <m>x</m> units are produced.
+      </p>
+      <p>
+        The <term>average revenue</term> of a product, denoted <m>\bar{R}(x)</m>, is given by the formula <m>\dfrac{R(x)}{x}</m>. It computes the revenue per unit when <m>x</m> units are produced.
+      </p>
+      <p>
+        The <term>average profit</term> of a product, denoted <m>\bar{P}(x)</m>, is given by the formula <m>\dfrac{P(x)}{x}</m>. It computes the profit per unit when <m>x</m> units are produced.
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="sec4-2-averagecostrevenueprofit-ex1">
+    <statement>
+      <p>
+        A manufacturer has monthly fixed costs of $<m>2500</m> and variable costs of $<m>5</m> per item. It sells each item for $<m>20</m> per item.
+      </p>
+      <p>
+        We can identify the cost, revenue, and profit functions:
+        <md>
+          <mrow> C(x) \amp = 5x + 2500 </mrow>
+          <mrow> R(x) \amp = 20x </mrow>
+          <mrow> P(x) \amp = 15x - 2500 </mrow>
+        </md>
+        The average cost, average revenue, and average profit are given by
+        <md>
+          <mrow> \bar{C}(x) \amp = \dfrac{5x+2500}{x} </mrow>
+          <mrow> \bar{R}(x) \amp = \dfrac{20x}{x} </mrow>
+          <mrow> \bar{P}(x) \amp = \dfrac{15x - 2500}{x}</mrow>
+        </md>
+        These functions can then be used to find specific information; for example, if we want to know the profit when 100 units are sold, we can do
+        <md>
+          <mrow>P(100) = 1500 - 2500 = -1000</mrow>
+        </md>
+        so the company loses 1000 dollars when only 100 units are sold. The average profit when 100 units are sold is given by
+        <md>
+          <mrow>\bar{P}(100) = \dfrac{1500 - 2500}{100} = -10 \amp </mrow>
+        </md>
+        so the company loses, on average, 10 dollars per unit when 100 units are sold.         
+      </p>
+    </statement>
+  </example>
+
+  <definition xml:id="def-functioncomposition">
+    <title>Function Composition</title>
+    <statement>
+      <p>
+        Given two functions <m>f(x)</m> and <m>g(x)</m> whose domains are compatible, the <term>composition of <m>f</m> and <m>g</m></term> is given by
+        <md>
+          <mrow>(f\circ g)(x) = f(g(x))</mrow>
+        </md>
+        This is read "<m>f</m> of <m>g</m> of <m>x</m>"; the entire function <m>g(x)</m> is treated as the input of <m>f(x)</m>.
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="sec4-2-functioncomposition-ex1">
+    <statement>
+      <p>
+        If <m>f(x) = 6-x</m> and <m>g(x) = \sqrt{x+1}</m>, then 
+        <md>
+          <mrow> (f\circ g)(x) \amp = f(g(x)) </mrow>
+          <mrow>  \amp = f(\sqrt{x+1}) </mrow>
+          <mrow>  \amp = 6 - (\sqrt{x+1}) </mrow>
+          <mrow>  \amp = 6 - \sqrt{x+1} </mrow>
+        </md>
+        Similarly,
+        <md>
+          <mrow> (g\circ f)(x) \amp = g(f(x))</mrow>
+          <mrow>  \amp = g(6-x) </mrow>
+          <mrow>  \amp = \sqrt{(6-x) + 1}</mrow>
+          <mrow>  \amp = \sqrt{7 - x} </mrow>
+        </md>
+        This shows that when you switch order of composition, the answers can be very different!
+      </p>
+    </statement>
+  </example>
+
+  <exercise xml:id="sec4-2-functioncomposition-cu1">
+    <statement>
+      <p>
+        If <m>f(x) = -7x^2</m> and <m>g(x) = \dfrac{x+1}{2}</m>, find <m>f(g(x))</m>, <m>g(f(x))</m>, and evaluate <m>(f\circ g)(1)</m> and <m>(g\circ f)(0)</m>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>f(g(x)) = -7\lrpar{\dfrac{x+1}{2}}^2 = -\dfrac{7}{4}(x+1)^2</m> and <m>g(f(x)) = \dfrac{-7x^2 + 1}{2}</m>. This means that <m>(f\circ g)(1) = -\dfrac{7}{4}(1+1)^2 = -\dfrac{7}{2}</m> and <m>(g\circ f)(0) = \dfrac{0 + 1}{2} = \dfrac{1}{2}</m>
+      </p>
+    </answer>
+  </exercise>
 </section>
