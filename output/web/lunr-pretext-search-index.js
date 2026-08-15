@@ -727,7 +727,25 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.4",
   "title": "Section 4.3",
-  "body": " Section 4.3  "
+  "body": " Section 4.3   Inverse Function   For a function , which has domain and range , its inverse function is a function which has the property that and   The domain of the inverse function is the range of the function , and the range of the inverse function is the domain of the function .      For the function , we can find its inverse by doing the following procedure.  First, we switch the places of and :   Next, we solve for . so that our final answer is or   We can verify that these are inverse functions by composing. If and , then which tells us that the two functions are inverses.    "
+},
+{
+  "id": "def-inverse",
+  "level": "2",
+  "url": "sec4-3.html#def-inverse",
+  "type": "Definition",
+  "number": "2.4.1",
+  "title": "Inverse Function.",
+  "body": " Inverse Function   For a function , which has domain and range , its inverse function is a function which has the property that and   The domain of the inverse function is the range of the function , and the range of the inverse function is the domain of the function .   "
+},
+{
+  "id": "sec4-3-inverse-ex1",
+  "level": "2",
+  "url": "sec4-3.html#sec4-3-inverse-ex1",
+  "type": "Example",
+  "number": "2.4.2",
+  "title": "",
+  "body": "  For the function , we can find its inverse by doing the following procedure.  First, we switch the places of and :   Next, we solve for . so that our final answer is or   We can verify that these are inverse functions by composing. If and , then which tells us that the two functions are inverses.   "
 },
 {
   "id": "backmatter-2",

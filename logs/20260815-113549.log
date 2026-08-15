@@ -1,0 +1,13 @@
+INFO    : Terminating existing server 43514 on port 8128
+ERROR   : Attempt to terminate PreTeXt web server failed for process 43514 on port 8128.
+INFO    : Now preparing local server to preview your project directory `/Users/cw/Library/CloudStorage/Dropbox/school/occc/functions-workbook`.
+INFO    :   (Reminder: use `pretext deploy` to deploy your built project to a public
+INFO    :   GitHub Pages site that can be shared with readers who cannot access your
+INFO    :   personal computer.)
+INFO    : 
+INFO    : starting server ...
+INFO    : setting up PreTeXt web server ...
+INFO    : Added pretext web server entry 01e6cbb77e 11514 8128 localhost
+
+INFO    : Server will soon be available at http://localhost:8128
+INFO    : The target `web` will be available at http://localhost:8128/output/web

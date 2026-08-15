@@ -102,15 +102,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.1.1';
+eBookConfig.runestone_version = '8.2.5';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.dcab57465a404e85.bundle.js"></script><script src="_static/prefix-713.de0ab26248766350.bundle.js"></script><script src="_static/prefix-runestone.79fbb790b185d712.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-713.f43ced6a6134ea74.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.87414d180ebeebd6.css">
+<script src="_static/prefix-runtime.18d8728f6d56e11d.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.b388362b5f43738a.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8086b62682b271d1.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -131,7 +131,12 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 </div>
 <span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec4-2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="mod2.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
-</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \newcommand{\lrpar}[1]{\left(#1\right)}
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} 
+\newcommand{\Z}{\mathbb Z} 
+\newcommand{\Q}{\mathbb Q} 
+\newcommand{\R}{\mathbb R} 
+\newcommand{\lrpar}[1]{\left(#1\right)}
+\newcommand{\inv}[1]{#1^{-1}}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -164,7 +169,76 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec4-3"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">2.4</span><span class="space"> </span><span class="title">Section 4.3</span>
 </h2>
-<div class="autopermalink" data-description="Section 2.4: Section 4.3"><a href="#sec4-3" title="Copy heading and permalink for Section 2.4: Section 4.3">🔗</a></div></section></div>
+<article class="definition definition-like" id="def-inverse"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.4.1</span><span class="period">.</span><span class="space"> </span><span class="title">Inverse Function.</span>
+</h3>
+<div class="para logical" id="def-inverse-2-1">
+<div class="para">For a function <span class="process-math">\(f(x)\text{,}\)</span> which has domain <span class="process-math">\(A\)</span> and range <span class="process-math">\(B\text{,}\)</span> its <dfn class="terminology">inverse function</dfn> is a function <span class="process-math">\(\inv{f}(x)\)</span> which has the property that</div>
+<div class="displaymath process-math" id="def-inverse-2-1-6">
+\begin{gather*}
+f(\inv{f}(x)) = x
+\end{gather*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math" id="def-inverse-2-1-7">
+\begin{align*}
+\inv{f}(f(x)) = x \amp 
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#def-inverse-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="def-inverse-2-2">The domain of the inverse function <span class="process-math">\(\inv{f}(x)\)</span> is the range of the function <span class="process-math">\(f(x)\text{,}\)</span> and the range of the inverse function <span class="process-math">\(\inv{f}(x)\)</span> is the domain of the function <span class="process-math">\(f(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#def-inverse-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 2.4.1: Inverse Function"><a href="#def-inverse" title="Copy heading and permalink for Definition 2.4.1: Inverse Function">🔗</a></div></article><article class="example example-like" id="sec4-3-inverse-ex1"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.4.2</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec4-3-inverse-ex1-1-1">For the function <span class="process-math">\(f(x) = 8x + 1\text{,}\)</span> we can find its inverse by doing the following procedure.<div class="autopermalink" data-description="Paragraph"><a href="#sec4-3-inverse-ex1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="sec4-3-inverse-ex1-1-2">
+<div class="para">First, we switch the places of <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{:}\)</span>
+</div>
+<div class="displaymath process-math" id="sec4-3-inverse-ex1-1-2-3">
+\begin{align*}
+y \amp = 8x + 1 \\
+x \amp = 8y + 1 
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec4-3-inverse-ex1-1-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="sec4-3-inverse-ex1-1-3">
+<div class="para">Next, we solve for <span class="process-math">\(y\text{.}\)</span>
+</div>
+<div class="displaymath process-math" id="sec4-3-inverse-ex1-1-3-2">
+\begin{align*}
+x \amp = 8y + 1 \\
+x -1  \amp = 8y \\
+\dfrac{1}{8}(x-1) = y \amp 
+\end{align*}
+</div>
+<div class="para">so that our final answer is</div>
+<div class="displaymath process-math" id="sec4-3-inverse-ex1-1-3-3">
+\begin{gather*}
+y = \dfrac{x-1}{8} 
+\end{gather*}
+</div>
+<div class="para">or</div>
+<div class="displaymath process-math" id="sec4-3-inverse-ex1-1-3-4">
+\begin{gather*}
+\end{gather*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec4-3-inverse-ex1-1-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="sec4-3-inverse-ex1-1-4">
+<div class="para">We can verify that these are inverse functions by composing. If <span class="process-math">\(f(x) = 8x + 1\)</span> and <span class="process-math">\(\inv{f}(x) = \dfrac{1}{8}x - \dfrac{1}{8}\text{,}\)</span> then</div>
+<div class="displaymath process-math" id="sec4-3-inverse-ex1-1-4-3">
+\begin{align*}
+(f\circ \inv{f})(x) \amp = f(\inv{f}(x)) \\
+\amp = f\lrpar{\dfrac{1}{8}x - \dfrac{1}{8}} \\
+\amp = 8\lrpar{\dfrac{1}{8}x - \dfrac{1}{8}} + 1 \\
+\amp = x - 1 + 1 \\
+\amp = x 
+\end{align*}
+</div>
+<div class="para">which tells us that the two functions are inverses.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec4-3-inverse-ex1-1-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 2.4.2"><a href="#sec4-3-inverse-ex1" title="Copy heading and permalink for Example 2.4.2">🔗</a></div></article><div class="autopermalink" data-description="Section 2.4: Section 4.3"><a href="#sec4-3" title="Copy heading and permalink for Section 2.4: Section 4.3">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec4-2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
@@ -172,5 +246,27 @@ eBookConfig.enable_chatcodes =  false;
 <div id="ptx-page-footer" class="ptx-page-footer">
 <a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
 </div>
+<script data-pretext-tools-frame-bridge="true">
+(function () {
+  if (window.__ptxFrameBridge) { return; }
+  window.__ptxFrameBridge = true;
+  function report() {
+    try {
+      parent.postMessage({
+        command: 'ptxFramePath',
+        path: location.pathname + location.search + location.hash
+      }, '*');
+    } catch (e) { /* not framed */ }
+  }
+  report();
+  window.addEventListener('hashchange', report);
+  window.addEventListener('pageshow', report);
+  window.addEventListener('message', function (event) {
+    if (event.data && event.data.command === 'ptxFrameReload') {
+      location.reload();
+    }
+  });
+})();
+</script>
 </body>
 </html>

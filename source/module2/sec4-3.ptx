@@ -3,4 +3,64 @@
 <section xml:id="sec4-3" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Section 4.3</title>
 
+  <definition xml:id="def-inverse">
+    <title>Inverse Function</title>
+    <statement>
+      <p>
+        For a function <m>f(x)</m>, which has domain <m>A</m> and range <m>B</m>, its <term>inverse function</term> is a function <m>\inv{f}(x)</m> which has the property that 
+        <md>
+          <mrow> f(\inv{f}(x)) = x</mrow>
+        </md>
+        and
+        <md>
+          <mrow> \inv{f}(f(x)) = x \amp </mrow>
+        </md>
+      </p>
+      <p>
+        The domain of the inverse function <m>\inv{f}(x)</m> is the range of the function <m>f(x)</m>, and the range of the inverse function <m>\inv{f}(x)</m> is the domain of the function <m>f(x)</m>.
+      </p>
+    </statement>
+  </definition>
+  
+  <example xml:id="sec4-3-inverse-ex1">
+    <statement>
+      <p>
+        For the function <m>f(x) = 8x + 1</m>, we can find its inverse by doing the following procedure.
+      </p>
+      <p>
+        First, we switch the places of <m>x</m> and <m>y</m>:
+        <md>
+          <mrow> y \amp = 8x + 1 </mrow>
+          <mrow> x \amp = 8y + 1 </mrow>
+        </md>
+      </p>
+      <p>
+        Next, we solve for <m>y</m>.
+        <md>
+          <mrow> x \amp = 8y + 1 </mrow>
+          <mrow> x -1  \amp = 8y </mrow>
+          <mrow>\dfrac{1}{8}(x-1) \amp = y  </mrow>
+        </md>
+        so that our final answer is
+        <md>
+          <mrow>y = \dfrac{x-1}{8} </mrow>
+        </md>
+        or
+        <md>
+          \inv{f}(x) = \dfrac{1}{8}x - \dfrac{1}{8}
+        </md>
+      </p>
+      <p>
+        We can verify that these are inverse functions by composing. If <m>f(x) = 8x + 1</m> and <m>\inv{f}(x) = \dfrac{1}{8}x - \dfrac{1}{8}</m>, then
+        <md>
+          <mrow> (f\circ \inv{f})(x) \amp = f(\inv{f}(x)) </mrow>
+          <mrow> \amp = f\lrpar{\dfrac{1}{8}x - \dfrac{1}{8}} </mrow>
+          <mrow> \amp = 8\lrpar{\dfrac{1}{8}x - \dfrac{1}{8}} + 1 </mrow>
+          <mrow> \amp = x - 1 + 1 </mrow>
+          <mrow> \amp = x </mrow>
+        </md>
+        which tells us that the two functions are inverses.
+      </p>
+    </statement>
+  </example>
 </section>
